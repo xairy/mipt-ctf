@@ -1,0 +1,55 @@
+$def with (tasks, sorted_tasks, users, sorted_users)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bash</title>
+
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+      .table th {
+          text-align: center;   
+      }
+      .table td {
+          text-align: center;   
+      }
+  </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                    $for task in sorted_tasks:
+                        <th>$task</th>
+                </tr>
+            </thead>
+            <tbody>
+                $for user in sorted_users:
+                    <tr>
+                        <td class="active">$user</td>
+                        $for task in sorted_tasks:
+                            $if users[user][task]:
+                                <td class="success">+</td>
+                            $else:
+                                <td></td>
+                    </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
