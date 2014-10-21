@@ -24,8 +24,10 @@ class index:
 
     return render.index(tasks, sorted_tasks, users, sorted_users)
 
+app = web.application(urls, globals())
+wsgiapp = app.wsgifunc()
+
 def start_app():
-  app = web.application(urls, globals())
   app.run()
 
 if __name__ == "__main__":
