@@ -9,17 +9,18 @@ def create_db():
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   c.execute('DROP TABLE IF EXISTS tasks')
-  c.execute('CREATE TABLE tasks (task text, flag text)')
+  c.execute('CREATE TABLE tasks (name TEXT, flag TEXT, complexity INTEGER)')
   c.execute('DROP TABLE IF EXISTS users')
-  c.execute('CREATE TABLE users (user text, state text)')
+  c.execute('CREATE TABLE users (name TEXT, state TEXT)')
   conn.commit()
   conn.close()
 
 def put_tasks(tasks):
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
-  for task, flag in tasks.items():
-    c.execute('INSERT INTO tasks VALUES(?, ?)', (task, flag))
+  for name in tasks.keys():
+    c.execute('INSERT INTO tasks VALUES(?, ?, ?)',
+        (name, tasks[name]['flag'], tasks[name]['complexity']))
   conn.commit()
   conn.close()
 
@@ -27,58 +28,63 @@ def get_tasks():
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   c.execute('SELECT * from tasks')
-  res = dict(c.fetchall())
+  raw_tasks = c.fetchall()
+  tasks = {}
+  for raw_task in raw_tasks:
+    tasks[raw_task[0]] = {'flag': raw_task[1], 'complexity': raw_task[2]}
   conn.close()
-  return res
+  return tasks
 
-def get_task_flag(task):
+def get_task_flag(name):
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
-  c.execute('SELECT * from tasks WHERE task = ?', (task,))
+  c.execute('SELECT * from tasks WHERE name = ?', (name,))
   res = c.fetchone()
   conn.close()
   if res == None:
     return None
   return res[1]
 
-def add_user(user):
+def add_user(name):
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   tasks = get_tasks()
-  for task in tasks.keys():
-    tasks[task] = False
-  state = json.dumps(tasks)
-  c.execute('INSERT INTO users VALUES(?, ?)', (user, state))
+  user_tasks = {}
+  for task_name in tasks.keys():
+    user_tasks[task_name] = False
+  state = json.dumps(user_tasks)
+  c.execute('INSERT INTO users VALUES(?, ?)', (name, state))
   conn.commit()
   conn.close()
-  return tasks
+  return user_tasks
 
 def get_users():
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   c.execute('SELECT * from users')
-  res = dict(c.fetchall())
-  for user in res.keys():
-    res[user] = json.loads(res[user])
+  raw_users = c.fetchall()
+  users = {}
+  for raw_user in raw_users:
+    users[raw_user[0]] = json.loads(raw_user[1])
   conn.close()
-  return res
+  return users
 
-def get_user_state(user):
+def get_user_state(name):
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
-  c.execute('SELECT * FROM users WHERE user = ?', (user,))
-  res = c.fetchone()
+  c.execute('SELECT * FROM users WHERE name = ?', (name,))
+  raw_user = c.fetchone()
   conn.close()
-  if res == None:
+  if raw_user == None:
     return None
-  res = json.loads(res[1])
-  return res
+  state = json.loads(raw_user[1])
+  return state
 
-def set_user_state(user, state):
+def set_user_state(name, state):
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   state = json.dumps(state)
-  c.execute('UPDATE users SET state = ? WHERE user = ?', (state, user))
+  c.execute('UPDATE users SET state = ? WHERE name = ?', (state, name))
   conn.commit()
   conn.close()
 
@@ -97,12 +103,12 @@ def try_solve_task(user, task, flag):
 
 if __name__ == '__main__':
   create_db()
-  put_tasks({'a': '01', 'b': '02'})
+  put_tasks({'a': {'flag': '01', 'complexity': 1}, 'b': {'flag': '02', 'complexity': 2}})
   print(get_tasks())
-  print(add_user('xairy'))
   print(get_task_flag('a'))
+  print(add_user('xairy'))
+  print(get_users())
   print(get_user_state('xairy'))
   print(try_solve_task('xairy', 'a', '10'))
   print(try_solve_task('xairy', 'b', '02'))
   print(get_user_state('xairy'))
-  print(get_users())

@@ -30,7 +30,11 @@ $def with (tasks, sorted_tasks, users, sorted_users)
                 <tr>
                     <th></th>
                     $for task in sorted_tasks:
-                        <th>$task</th>
+                        <th>
+                            $task
+                            $for i in xrange(0, tasks[task]['complexity'] - 2):
+                                *
+                        </th>
                 </tr>
             </thead>
             <tbody>
