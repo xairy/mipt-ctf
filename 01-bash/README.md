@@ -1,9 +1,9 @@
 bash
 ====
 
-### Задачи
+## Задачи
 
-Условия задач брать здесь:
+Условия задач брать [здесь](https://andreyknvl.com/mipt-ctf/tasks/bash-tasks.tar.gz):
 ```
 $ wget https://andreyknvl.com/mipt-ctf/tasks/bash-tasks.tar.gz
 $ tar -xzf bash-tasks.tar.gz
@@ -27,10 +27,12 @@ $ nc andreyknvl.com 9998
 username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 ```
 
-Доступна таблица результатов TODO
+Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
-### Материалы
+## Материалы
 
 [Презентация на паре](01-bash-presentation.pdf)
+
 [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+
 [DigitalOcean: Using Grep & Regular Expressions to Search for Text Patterns in Linux](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)
