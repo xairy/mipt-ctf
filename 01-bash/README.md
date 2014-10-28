@@ -31,7 +31,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Материалы
 
-[Презентация на паре](01-bash-presentation.pdf)
+[Презентация на паре](https://github.com/xairy/mipt-ctf/raw/master/01-bash/01-bash-presentation.pdf)
 
 [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
 
