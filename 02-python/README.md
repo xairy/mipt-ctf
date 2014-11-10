@@ -3,7 +3,13 @@ Python
 
 ## Задачи
 
-Bitwise: флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/bitwise.py) печатает "Success".
+### Simple
+
+Флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/simple.py) печатает "Success!".
+
+### Bitwise
+
+Флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/bitwise.py) печатает "Success".
 
 Задача взята из [Pico CTF 2013](https://2013.picoctf.com).
 
