@@ -3,7 +3,7 @@ Python
 
 ## Задачи
 
-В задаче bitwise флагом является ввод, при котором программа печатает "Success!".
+Bitwise: флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/bitwise.py) печатает "Success".
 
 ### Eval
 
