@@ -5,11 +5,13 @@ Python
 
 Bitwise: флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/bitwise.py) печатает "Success".
 
+Задача взята из [Pico CTF 2013](https://2013.picoctf.com).
+
 ### Eval
 
 Набор задачек на эксплуатацию уязвимостей в сервисах, использующих функцию eval.
 
-Условия взяты из [Pico CTF 2013](https://2013.picoctf.com).
+Задачи взяты из [Pico CTF 2013](https://2013.picoctf.com).
 
 Eval 1: [условие](https://2013.picoctf.com/problems/pyeval/stage1.html), [исходник](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/eval1.py), флаг брать здесь:
 ```
