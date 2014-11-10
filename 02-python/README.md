@@ -11,13 +11,15 @@ Python
 
 Флагом является ввод, при котором [программа](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/bitwise.py) печатает "Success".
 
-Задача взята из [Pico CTF 2013](https://2013.picoctf.com).
+Задача взята из [picoCTF 2013](https://2013.picoctf.com).
 
 ### Eval
 
 Набор задачек на эксплуатацию уязвимостей в сервисах, использующих функцию eval.
 
-Задачи взяты из [Pico CTF 2013](https://2013.picoctf.com).
+В задачах 1 и 2 нужно узнать значение переменной flag.
+В задачах 3, 4 и 5 нужно получить доступ к консоли и прочитать флаг из файла.
+
 
 Eval 1: [условие](https://2013.picoctf.com/problems/pyeval/stage1.html), [исходник](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/eval1.py), флаг брать здесь:
 ```
@@ -43,6 +45,8 @@ Eval 5: [исходник](https://github.com/xairy/mipt-ctf/blob/master/02-pyth
 ```
 nc python.picoctf.com 6365
 ```
+
+Задачи взяты из [picoCTF 2013](https://2013.picoctf.com).
 
 ### QR Code
 
