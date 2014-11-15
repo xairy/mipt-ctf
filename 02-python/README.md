@@ -65,6 +65,13 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
 
+## Дополнительные задачи
+
+1. Смотреть задачи [здесь](https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis)
+
+2. Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/brute.zip), пароль словарный.
+
+
 ## Материалы
 
 https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis
