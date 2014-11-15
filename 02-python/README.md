@@ -73,6 +73,10 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 3. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
 
+4. https://projecteuler.net/
+
+5. http://www.pythonchallenge.com/
+
 
 ## Материалы
 
