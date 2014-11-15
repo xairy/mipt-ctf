@@ -69,7 +69,9 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 1. Смотреть задачи [здесь](https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis).
 
-2. Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/brute.zip), пароль словарный.
+2. Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/brute.zip). Пароль словарный.
+
+3. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
 
 
 ## Материалы
