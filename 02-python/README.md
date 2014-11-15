@@ -74,6 +74,8 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Материалы
 
+https://docs.python.org/2/library/index.html
+
 https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis
 
 http://www.slideshare.net/MattHarrison4/learn-90
