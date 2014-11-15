@@ -77,6 +77,8 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 5. http://www.pythonchallenge.com/
 
+6. Сделать [задачки по башу](https://github.com/xairy/mipt-ctf/tree/master/01-bash) с помощью Питона.
+
 
 ## Материалы
 
