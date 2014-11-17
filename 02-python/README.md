@@ -87,6 +87,8 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 4. Задачки категории exploit с [Moscow CTF School 2014](http://ctf.cs.msu.ru:9911/index).
 
+5. [Задачка](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/exec.py) с [CSAW CTF 2014](https://ctf.isis.poly.edu/).
+
 
 ## Материалы
 
