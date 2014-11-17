@@ -21,11 +21,12 @@ $ file simple
 simple: ASCII text
 ```
 
-Сдавать флаги вот так:
+Отправлять флаги на сервер таким образом:
 ```
 $ nc andreyknvl.com 9998
 username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 ```
+где username - имя для таблицы результатов, а taskname - название задачи.
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
@@ -33,6 +34,6 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 [Презентация на паре](https://github.com/xairy/mipt-ctf/raw/master/01-bash/01-bash-presentation.pdf)
 
-[Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
-
 [Using Grep & Regular Expressions to Search for Text Patterns in Linux](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)
+
+[Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
