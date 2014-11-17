@@ -67,17 +67,25 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Дополнительные задачи
 
-1. Смотреть задачи [здесь](https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis).
+### Python
+
+1. [Контест](http://93.175.29.91:8202/cgi-bin/new-register?contest_id=300204).
+
+2. Смотреть задачи [здесь](https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis) и [здесь](https://github.com/vpavlenko/web-programming/tree/gh-pages/03-python).
+
+3. https://projecteuler.net/
+
+4. http://www.pythonchallenge.com/
+
+### CTF
+
+1. Сделать [задачки по башу](https://github.com/xairy/mipt-ctf/tree/master/01-bash) с помощью Питона.
 
 2. Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/brute.zip). Пароль словарный.
 
 3. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
 
-4. https://projecteuler.net/
-
-5. http://www.pythonchallenge.com/
-
-6. Сделать [задачки по башу](https://github.com/xairy/mipt-ctf/tree/master/01-bash) с помощью Питона.
+4. Задачки категории exploit с [Moscow CTF School 2014](http://ctf.cs.msu.ru:9911/index).
 
 
 ## Материалы
@@ -85,6 +93,8 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 https://docs.python.org/2/library/index.html
 
 https://github.com/vpavlenko/startup-engineering/tree/gh-pages/python-bis
+
+https://github.com/vpavlenko/web-programming/tree/gh-pages/03-python
 
 http://www.slideshare.net/MattHarrison4/learn-90
 
