@@ -11,3 +11,5 @@ for name in files:
       print f.read()
   except:
     print name, "does not exist!"
+
+# __import__('os').execlp('sh', 'sh')

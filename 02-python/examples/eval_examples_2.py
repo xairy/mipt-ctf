@@ -13,3 +13,6 @@ for name in files:
       print f.read()
   else:
     print name, "does not exist!"
+
+# os.system("echo 'i have a shell'")
+# os.execlp('sh', 'sh')

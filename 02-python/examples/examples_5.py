@@ -3,22 +3,37 @@
 
 import re
 
-line = "Cats are smarter than dogs"
+line = 'Cats are smarter than dogs'
 
-match = re.match('(.*) are ([a-z]+) (.*)', line)
 
-if match:
-   print "match.group() :", match.group()
-   print "match.group(1):", match.group(1)
-   print "match.group(2):", match.group(2)
-   print "match.group(3):", match.group(3)
-else:
-   print "No match!"
-
+# Searching one.
 
 search = re.search('[^ ]+', line)
 
 if search:
-   print "search.group():", search.group()
+   print 'Found by search:', search.group()
 else:
-   print "Nothing found!"
+   print 'Nothing found!'
+
+raw_input()
+
+
+# Searching many.
+
+findall = re.findall('[^ ]+', line)
+for match in findall:
+  print 'Found by findall:', match
+
+raw_input()
+
+
+# Matching.
+
+match = re.match('(.+) are smarter than (.+)', line)
+
+if match:
+   print 'Matched:', match.group()
+   print 'match.group(0):', match.group(1)
+   print 'match.group(1):', match.group(2)
+else:
+   print 'No match!'

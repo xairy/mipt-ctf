@@ -14,3 +14,14 @@ while True:
   else:
     print "You win!"
     break
+
+# 1 + 1
+# [1, 2] + [3, 4]
+# !@#$%
+# hello
+# num
+# print num
+# num + 1
+# str(num)
+# locals()
+# globals()
