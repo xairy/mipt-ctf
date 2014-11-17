@@ -3,8 +3,8 @@
 
 import os
 
-print type([])
-print type(list)
+print locals()
+print globals()
 
 print dir(os)
 print dir([])

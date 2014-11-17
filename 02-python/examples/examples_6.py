@@ -26,6 +26,7 @@ except:
 
 raw_input()
 
+
 # Zip.
 
 lst1 = [1, 2]
@@ -34,12 +35,14 @@ print zip(lst1, lst2)
 
 raw_input()
 
+
 # Filter.
 
 lng = range(100)
 print filter(lambda x: x > 50, lng)
 
 raw_input()
+
 
 # Hidden.
 
@@ -51,5 +54,3 @@ print map(lambda (x, y): x + y, zip(hidden[::2], hidden[1::2]))
 print map(lambda (x, y): int(x + y, 16), zip(hidden[::2], hidden[1::2]))
 print map(lambda (x, y): chr(int(x + y, 16)), zip(hidden[::2], hidden[1::2]))
 print ''.join(map(lambda (x, y): chr(int(x + y, 16)), zip(hidden[::2], hidden[1::2])))
-
-raw_input()
