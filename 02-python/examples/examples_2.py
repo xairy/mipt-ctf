@@ -35,8 +35,8 @@ s = [5, 10, 'smth', {'A': 'a'}]
 print s[0], s[1], s[-1], s[-2]
 t = s
 s.pop()
-print(s)
-print(t)
+print s
+print t
 
 raw_input('Далее...\n')
 

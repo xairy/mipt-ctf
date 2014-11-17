@@ -7,8 +7,6 @@ second_word = raw_input()
 spell = first_word + ' ' + second_word + '!'
 print spell
 
-raw_input('Далее...\n')
-
 # Ввод-вывод чисел.
 first_number = int(raw_input())
 second_number = float(raw_input())
@@ -91,6 +89,9 @@ print 3 in prime_numbers
 print 4 in prime_numbers
 print 'Griffindor' in houses
 print 'ratio' in 'transfiguration'
+
+a = True
+b = False
 
 raw_input('Далее...\n')
 

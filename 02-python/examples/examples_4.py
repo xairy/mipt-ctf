@@ -16,3 +16,9 @@ fout.close()
 with open('input.txt') as fin:
   for line in fin:
     print line.strip()
+
+import fileinput
+
+# Чтение из стандартного входа. Ctrl+D чтобы завершить.
+for line in fileinput.input():
+  print line.strip()
