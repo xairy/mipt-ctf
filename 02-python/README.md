@@ -1,6 +1,16 @@
 Python
 ======
 
+## Лекция
+
+Часть 1: примеры
+[1](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_1.py),
+[2](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_2.py),
+[3](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_3.py),
+[4](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_4.py).
+
+Часть 2: [скринкаст](https://www.youtube.com/watch?v=O6bT3oEAbfA).
+
 ## Задачи
 
 ### Simple
