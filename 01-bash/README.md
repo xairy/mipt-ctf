@@ -1,6 +1,10 @@
 bash
 ====
 
+## Лекция
+
+[Слайды](https://github.com/xairy/mipt-ctf/raw/master/01-bash/01-bash-presentation.pdf).
+
 ## Задачи
 
 Условия задач брать [здесь](https://andreyknvl.com/mipt-ctf/tasks/bash-tasks.tar.gz):
@@ -29,6 +33,10 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 где username - имя для таблицы результатов, а taskname - название задачи.
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
+
+## Разбор задач
+
+[Тут](https://github.com/xairy/mipt-ctf/wiki/Writeup:-bash).
 
 ## Материалы
 
