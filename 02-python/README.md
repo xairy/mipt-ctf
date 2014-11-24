@@ -60,7 +60,7 @@ nc python.picoctf.com 6365
 
 ### QR Code
 
-Условие задачи qrcode будет раздаваться на занятии.
+Условие задачи [здесь](https://github.com/xairy/mipt-ctf/tree/master/02-python/tasks/qrcode).
 
 
 ## Флаги
