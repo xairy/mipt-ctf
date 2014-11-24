@@ -82,3 +82,9 @@ https://github.com/vpavlenko/ctf-crypto-tasks
 http://www.joelonsoftware.com/articles/Unicode.html
 
 http://utf8everywhere.org/
+
+https://en.wikipedia.org/wiki/Base64
+
+https://en.wikipedia.org/wiki/Caesar\_cipher
+
+https://en.wikipedia.org/wiki/Vigen%C3%A8re\_cipher
