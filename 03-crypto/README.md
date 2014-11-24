@@ -3,6 +3,8 @@ Python
 
 ## Задачи
 
+Многие задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks).
+
 ### simple
 
 ```
@@ -15,42 +17,42 @@ Python
 Kw2bvN2X5JXZ29VeyVmdflnclZ3Xzl2X0YTZzFmY
 ```
 
-## steps
+### steps
 
 ```
 5647686c636d56666257463558324a6c58323168626e6c666333526c63484d3d
 ```
 
-## caesar
+### caesar
 
 ```
 Wkh_Txlfn_Eurzq_Ira_Mxpsv_Ryhu_Wkh_Odcb_Grj
 ```
 
-## start
+### start
 
 После шифрования текста с помощью [программы](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/start.py) был получен [файл](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/start.dat). Расшифруйте.
 
 Файл нужно скачать, нажав на кнопку Raw.
 Просто скопировать не получится, поскольку часть данных не отображается браузером.
 
-## analyze\*
+### analyze
 
 Условие [тут](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/analyze.txt).
 
 Флагом является имя\_автора.
 
-## vigenere\*
+### vigenere\*
 
-TODO
+После шифрования текста с помощью [программы](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/vigenere.py) был получен [файл](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/vigenere.dat). Расшифруйте.
 
-## mary\*\*
+Флагом являемся имя\_оригинального\_автора.
+
+### mary\*\*
 
 Условие [тут](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/mary.txt).
 
 Флагом является произведение года рождения и года смерти автора.
-
-Задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks).
 
 
 ## Флаги
@@ -65,6 +67,15 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
 
+## Дополнительные задачи
+
+Смотреть [здесь](https://github.com/vpavlenko/ctf-crypto-tasks).
+
+
 ## Материалы
 
 https://github.com/vpavlenko/ctf-crypto-tasks
+
+http://www.joelonsoftware.com/articles/Unicode.html
+
+http://utf8everywhere.org/
