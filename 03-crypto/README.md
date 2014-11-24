@@ -1,4 +1,4 @@
-Python
+Crypto
 ======
 
 ## Задачи
@@ -45,6 +45,9 @@ Wkh_Txlfn_Eurzq_Ira_Mxpsv_Ryhu_Wkh_Odcb_Grj
 ### vigenere\*
 
 После шифрования текста с помощью [программы](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/vigenere.py) был получен [файл](https://github.com/xairy/mipt-ctf/blob/master/03-crypto/tasks/vigenere.dat). Расшифруйте.
+
+Файл нужно скачать, нажав на кнопку Raw.
+Просто скопировать не получится, поскольку часть данных не отображается браузером.
 
 Флагом являемся имя\_оригинального\_автора.
 
