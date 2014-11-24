@@ -85,6 +85,6 @@ http://utf8everywhere.org/
 
 https://en.wikipedia.org/wiki/Base64
 
-https://en.wikipedia.org/wiki/Caesar\_cipher
+https://en.wikipedia.org/wiki/Caesar_cipher
 
-https://en.wikipedia.org/wiki/Vigen%C3%A8re\_cipher
+https://en.wikipedia.org/wiki/Vigenere_cipher
