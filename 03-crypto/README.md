@@ -1,6 +1,12 @@
 Crypto
 ======
 
+## Лекция
+
+Часть 1: [слайды](https://github.com/xairy/mipt-ctf/raw/master/03-crypto/slides.pdf).
+
+Часть 2: Not yet.
+
 ## Задачи
 
 Многие задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks).
