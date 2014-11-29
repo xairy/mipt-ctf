@@ -3,6 +3,8 @@ Python
 
 ## Лекция
 
+Слайды: [pdf](https://github.com/xairy/mipt-ctf/raw/master/02-python/slides.pdf), [online](https://docs.google.com/presentation/d/1IW5U1NL72mr6dadC7Uq5Q3Fo_06dDuvyM_8Zwe3_cvc/edit#slide=id.p).
+
 Часть 1: примеры
 [1](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_1.py),
 [2](https://github.com/xairy/mipt-ctf/blob/master/02-python/examples/examples_2.py),

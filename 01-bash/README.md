@@ -3,7 +3,7 @@ bash
 
 ## Лекция
 
-[Слайды](https://github.com/xairy/mipt-ctf/raw/master/01-bash/01-bash-presentation.pdf).
+Слайды: [pdf](https://github.com/xairy/mipt-ctf/raw/master/01-bash/slides.pdf), [online](https://docs.google.com/presentation/d/1mseJ-39QVw1NclNv9VUq20ZUW3XwGgNM9U2UEW8T-Js/edit#slide=id.p).
 
 ## Задачи
 
