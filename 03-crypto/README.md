@@ -3,7 +3,7 @@ Crypto
 
 ## Лекция
 
-Часть 1: Слайды: [pdf](https://github.com/xairy/mipt-ctf/raw/master/03-crypto/slides.pdf), [online](https://docs.google.com/presentation/d/1caLcV161XxbwXlQhiHLfmGtGkWuMc_gZuNazn1tkLN0/edit#slide=id.g4d0897195_00).
+Часть 1: слайды: [pdf](https://github.com/xairy/mipt-ctf/raw/master/03-crypto/slides.pdf), [online](https://docs.google.com/presentation/d/1caLcV161XxbwXlQhiHLfmGtGkWuMc_gZuNazn1tkLN0/edit#slide=id.g4d0897195_00); [скринкаст](https://www.youtube.com/watch?v=cwqBWB1ugrk).
 
 Часть 2: Not yet.
 
