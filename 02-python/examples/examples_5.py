@@ -29,7 +29,7 @@ raw_input()
 
 # Matching.
 
-match = re.match('(.+) are smarter than (.+)', line)
+match = re.match('(.+) are [^ ]+ than (.+)', line)
 
 if match:
    print 'Matched:', match.group()
