@@ -37,13 +37,6 @@ You suspect that the robot is communicating with the crashed ship. Your goal is 
 
 You can perform the analysis online on [Cloudshark](http://www.cloudshark.org/captures/bc1c0a7fae2c) or you can download the [PCAP file](https://2013.picoctf.com/problems/first_contact.pcap).
 
-### ddos\*
-
-It appears a SYN-flood style DDoS has been carried out on this system. Send us a list of the IP addresses of the attackers (in any order, separated by spaces), so we can track them down and stop them.
-
-Pcap available to download [here](https://2013.picoctf.com/problems/syn_attack.pcap), or available to analyse online at [CloudShark](http://www.cloudshark.org/captures/88971318a309).
-
-Hint: What's a defining pattern in a [syn flood attack](http://en.wikipedia.org/wiki/SYN_flood)?
 
 ## Флаги
 
@@ -55,6 +48,20 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 где username - имя для таблицы результатов, а taskname - название задачи.
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
+
+
+## Дополнительные задачи
+
+http://canyouhack.it/
+
+### ddos\*
+
+It appears a SYN-flood style DDoS has been carried out on this system. Send us a list of the IP addresses of the attackers (in any order, separated by spaces), so we can track them down and stop them.
+
+Pcap available to download [here](https://2013.picoctf.com/problems/syn_attack.pcap), or available to analyse online at [CloudShark](http://www.cloudshark.org/captures/88971318a309).
+
+Hint: What's a defining pattern in a [syn flood attack](http://en.wikipedia.org/wiki/SYN_flood)?
+
 
 ## Материалы
 
