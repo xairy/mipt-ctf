@@ -62,7 +62,7 @@ def get_users():
   conn = sqlite3.connect('scoreboard.db')
   c = conn.cursor()
   c.execute('SELECT * from users')
-  raw_users = c.fetchall()
+  raw_users = c.fetchmany(100)
   users = {}
   for raw_user in raw_users:
     users[raw_user[0]] = json.loads(raw_user[1])

@@ -10,13 +10,13 @@ import db
 
 class ScoreboardTCPHandler(SocketServer.StreamRequestHandler):
   def process(self, req):
-    req = req.split(' ')
+    req = req.split(' ', 2)
     if len(req) != 3:
         self.wfile.write('Wrong format! Should be: <user> <task> <flag>\n')
         return
 
     user = req[0][:8]
-    task = req[1]
+    task = req[1].lower()
     flag = req[2]
 
     res = db.try_solve_task(user, task, flag)
@@ -29,7 +29,6 @@ class ScoreboardTCPHandler(SocketServer.StreamRequestHandler):
         self.process(line)
     except:
       self.wfile.write('Oops!\n')
-      raise
 
 class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
   pass
@@ -48,7 +47,7 @@ def stop_tcp_server():
   server_thread.join()
 
 def run_tcp():
-  start_tcp_server(9999)
+  start_tcp_server(9995)
   try:
     while True:
       time.sleep(1)
