@@ -29,6 +29,8 @@ Daedalus Corp. uses a [web interface](http://web2014.picoctf.com/toaster-control
 
 ### contact
 
+_Задачка временно не работает._
+
 You notice that the indicator light near the robot’s antenna begins to blink. Perhaps the robot is connecting to a network? Using a wireless card and the network protocol analyzer Wireshark, you are able to create a PCAP file containing the packets sent over the network.
 
 You suspect that the robot is communicating with the crashed ship. Your goal is to find the location of the ship by inspecting the network traffic.
