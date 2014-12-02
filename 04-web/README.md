@@ -84,5 +84,3 @@ Hint: What's a defining pattern in a [syn flood attack](http://en.wikipedia.org/
 ## Материалы
 
 TODO
-
-Презенташка [тут](https://github.com/xairy/mipt-ctf/blob/master/04-web/MIPT-ctf4.pdf)
