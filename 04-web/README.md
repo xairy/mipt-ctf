@@ -33,8 +33,6 @@ Daedalus Corp. uses a [web interface](http://web2014.picoctf.com/toaster-control
 
 ### contact
 
-_Задачка временно не работает._
-
 You notice that the indicator light near the robot’s antenna begins to blink. Perhaps the robot is connecting to a network? Using a wireless card and the network protocol analyzer Wireshark, you are able to create a PCAP file containing the packets sent over the network.
 
 You suspect that the robot is communicating with the crashed ship. Your goal is to find the location of the ship by inspecting the network traffic.
@@ -42,6 +40,8 @@ You suspect that the robot is communicating with the crashed ship. Your goal is 
 You can perform the analysis online on [Cloudshark](http://www.cloudshark.org/captures/bc1c0a7fae2c) or you can download the [PCAP file](https://2013.picoctf.com/problems/first_contact.pcap).
 
 ### inspection\*
+
+_Задачка временно не работает._
 
 On his computer, your father left open a browser with the [Thyrin Lab Website](https://picoctf.com/api/autogen/serve/index.html?static=false&pid=28baa70afa1967ff63b201f687b7533e). Can you find the hidden access code?
 
@@ -71,6 +71,10 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 ## Дополнительные задачи
 
 http://canyouhack.it/
+
+http://ahack.ru/contest/
+
+http://securityoverride.org/
 
 ### ddos\*
 
