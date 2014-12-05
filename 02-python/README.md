@@ -102,6 +102,11 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 5. [Задачка](https://github.com/xairy/mipt-ctf/blob/master/02-python/tasks/exec.py) с [CSAW CTF 2014](https://ctf.isis.poly.edu/).
 
 
+## Разбор задач
+
+[Тут](https://github.com/xairy/mipt-ctf/wiki/Writeup:-python).
+
+
 ## Материалы
 
 https://docs.python.org/2/library/index.html
