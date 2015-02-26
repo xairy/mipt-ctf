@@ -9,6 +9,7 @@ TODO
 Часть 1: [pdf](https://github.com/xairy/mipt-ctf/raw/master/04-web/slides.pdf), [online](https://docs.google.com/presentation/d/1Zcc4av7v9B3ZGEShVkaVYCBy-NGMxFkN-6f2gbr_uCU/edit?usp=sharing).
 -->
 
+
 ## Задачи
 
 Задачки взяты с [Security Override](http://securityoverride.org/) (требует регистрации) и [picoCTF 2014](https://picoctf.com/).
@@ -61,6 +62,7 @@ http://securityoverride.org/challenges/basic/14/
 
 The bad guys have hidden their access codes on an [anonymous secure page service](http://sps.picoctf.com/). Our intelligence tells us that the codes was posted on a page with id 43440b22864b30a0098f034eaf940730ca211a55, but unfortunately it's protected by a password, and only site moderators can view the post without the password. Can you help us recover the codes?
 
+
 ## Флаги
 
 Отправлять флаги на сервер таким образом:
@@ -72,13 +74,18 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
+
 ## Дополнительные задачи
 
 https://picoctf.com/problems
+
 http://securityoverride.org/challenges/
+
 https://xss-game.appspot.com/
+
 
 ## Материалы
 
 https://github.com/vpavlenko/ctf-web-tasks
+
 TODO: more.
