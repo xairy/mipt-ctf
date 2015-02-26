@@ -11,20 +11,20 @@ CTF на Физтехе
 
 ## Осенний семестр
 
-*29 октября.*
+**29 октября.**
 [Что такое CTF. Какие бывают задачки. Командная оболочка bash. Полезные команды.]
 (https://github.com/xairy/mipt-ctf/tree/master/01-bash)
 
-*11 и 18 ноября.*
+**11 и 18 ноября.**
 [Введение в язык Python. Escaping Python sandboxes.]
 (https://github.com/xairy/mipt-ctf/tree/master/02-python)
 
-*25 ноября.*
+**25 ноября.**
 [Кодировки (ASCII, Unicode, base64). Шифры Цезаря, простой подстановки и Виженера. ]
 (https://github.com/xairy/mipt-ctf/tree/master/03-crypto)
 
-*2 декабря.*
+**2 декабря.**
 [Введение в веб. nmap, HTTP/HTTPS, cookies, Python requests, curl, robots.txt. ]
-(https://github.com/xairy/mipt-ctf/tree/master/03-crypto)
+(https://github.com/xairy/mipt-ctf/tree/master/04-web)
 
 ## Весенний семестр
