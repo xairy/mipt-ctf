@@ -49,9 +49,15 @@ http://securityoverride.org/challenges/basic/12/index.php?id=1
 
 http://web2014.picoctf.com/injection3/
 
+Перед тем, как решать эту задачку, рекомендуется решить предыдущую.
+
 ### sql4\*
 
 http://web2014.picoctf.com/injection4/
+
+[Hint 1.](http://web2014.picoctf.com/injection4/register.phps)
+
+[Hint 2.] (http://www.w3schools.com/sql/sql_like.asp)
 
 ### sql5\*
 
