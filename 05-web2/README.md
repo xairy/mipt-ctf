@@ -3,12 +3,11 @@ Web2
 
 ## Лекция
 
-[Online](https://docs.google.com/presentation/d/1yyzmHGmIHnEbWAK33q89TD6w77rNeeXTyEczSemNuT8/edit?usp=sharing),
-[pdf](https://github.com/xairy/mipt-ctf/raw/master/05-web2/slides.pdf).
+[Часть 1](https://github.com/xairy/mipt-ctf/tree/master/04-web).
 
-<!--
-Часть 1: [pdf](https://github.com/xairy/mipt-ctf/raw/master/04-web/slides.pdf), [online](https://docs.google.com/presentation/d/1Zcc4av7v9B3ZGEShVkaVYCBy-NGMxFkN-6f2gbr_uCU/edit?usp=sharing).
--->
+Часть 2:
+[pdf](https://github.com/xairy/mipt-ctf/raw/master/05-web2/slides.pdf),
+[online](https://docs.google.com/presentation/d/1yyzmHGmIHnEbWAK33q89TD6w77rNeeXTyEczSemNuT8/edit?usp=sharing).
 
 
 ## Задачи
