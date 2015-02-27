@@ -37,7 +37,7 @@ http://securityoverride.org/challenges/basic/8/
 
 https://2013.picoctf.com/problems/php3/
 
-### sql2
+### sql2*
 
 http://securityoverride.org/challenges/basic/12/index.php?id=1
 
@@ -45,13 +45,13 @@ http://securityoverride.org/challenges/basic/12/index.php?id=1
 
 [Hint 2.](http://www.mssqltips.com/sqlservertutorial/196/informationschematables/)
 
-### sql3
+### sql3*
 
 http://web2014.picoctf.com/injection3/
 
 Перед тем, как решать эту задачку, рекомендуется решить предыдущую.
 
-### sql4\*
+### sql4*
 
 http://web2014.picoctf.com/injection4/
 
@@ -59,7 +59,7 @@ http://web2014.picoctf.com/injection4/
 
 [Hint 2.] (http://www.w3schools.com/sql/sql_like.asp)
 
-### sql5\*
+### sql5\*\*
 
 https://2013.picoctf.com/problems/php4/
 
