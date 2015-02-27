@@ -28,3 +28,7 @@ CTF на Физтехе
 (https://github.com/xairy/mipt-ctf/tree/master/04-web)
 
 ## Весенний семестр
+
+**26 февраля**
+[Продолжение веба. Инъекции. SQLi, XSS, LFI, RFI.]
+(https://github.com/xairy/mipt-ctf/tree/master/05-web2)
