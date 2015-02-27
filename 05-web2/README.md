@@ -41,6 +41,10 @@ https://2013.picoctf.com/problems/php3/
 
 http://securityoverride.org/challenges/basic/12/index.php?id=1
 
+[Hint 1.](http://securityoverride.org/challenges/basic/12/index.php?id=1 union select 1, 2, 3, 4 --)
+
+[Hint 2.](http://www.mssqltips.com/sqlservertutorial/196/informationschematables/)
+
 ### sql3
 
 http://web2014.picoctf.com/injection3/
