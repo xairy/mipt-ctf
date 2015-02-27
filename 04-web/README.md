@@ -5,7 +5,7 @@ Web
 
 Часть 1: [pdf](https://github.com/xairy/mipt-ctf/raw/master/04-web/slides.pdf), [online](https://docs.google.com/presentation/d/1Zcc4av7v9B3ZGEShVkaVYCBy-NGMxFkN-6f2gbr_uCU/edit?usp=sharing).
 
-[Часть 2.](https://github.com/xairy/mipt-ctf/tree/master/05-web2)
+[Часть 2](https://github.com/xairy/mipt-ctf/tree/master/05-web2).
 
 ## Задачи
 
