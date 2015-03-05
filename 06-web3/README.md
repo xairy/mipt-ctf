@@ -7,7 +7,7 @@ Web3
 
 [Часть 2](https://github.com/xairy/mipt-ctf/tree/master/05-web2).
 
-Часть 2:
+Часть 3:
 TODO.
 
 <!--
@@ -90,4 +90,4 @@ https://github.com/vpavlenko/ctf-web-tasks
 
 [Presentation on SQL injections by h34dump](https://docs.google.com/presentation/d/1Vks9AO7bA9OaABLBzyjNN0Z6wNKP_92JUoW28rYYAFY/edit#slide=id.g1284d550_1_15)
 
-https://www.owasp.org/index.php/XPATH\_Injection
+[XPATH Injection](https://www.owasp.org/index.php/XPATH_Injection)
