@@ -8,12 +8,8 @@ Web3
 [Часть 2](https://github.com/xairy/mipt-ctf/tree/master/05-web2).
 
 Часть 3:
-TODO.
+[online](https://docs.google.com/presentation/d/1mh5VSc6VC_kIQgN7QKojpVsWbJJrUHyxPg_OYrr9QVg/edit?usp=sharing).
 
-<!--
-[pdf](https://github.com/xairy/mipt-ctf/raw/master/05-web2/slides.pdf),
-[online](https://docs.google.com/presentation/d/1yyzmHGmIHnEbWAK33q89TD6w77rNeeXTyEczSemNuT8/edit?usp=sharing).
--->
 
 ## Старые задачи
 
@@ -48,7 +44,7 @@ https://2013.picoctf.com/problems/php4/
 
 ## Новые задачи
 
-### sql5
+### sql5\*
 
 https://wildwildweb.fluxfingers.net:1424/
 
