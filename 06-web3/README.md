@@ -49,6 +49,8 @@ https://2013.picoctf.com/problems/php4/
 
 https://wildwildweb.fluxfingers.net:1424/
 
+https://wildwildweb.fluxfingers.net:1424/index.phps
+
 ### sql6\*\*
 
 http://asis-ctf.ir:12441/
