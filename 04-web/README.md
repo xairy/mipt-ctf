@@ -7,6 +7,8 @@ Web
 
 [Часть 2](https://github.com/xairy/mipt-ctf/tree/master/05-web2).
 
+[Часть 3](https://github.com/xairy/mipt-ctf/tree/master/06-web3).
+
 ## Задачи
 
 Задачки взяты с [CanYouHack.It](http://canyouhack.it/) и [picoCTF 2014](https://picoctf.com/).
