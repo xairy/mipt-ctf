@@ -7,7 +7,10 @@ Web2
 
 Часть 2:
 [pdf](https://github.com/xairy/mipt-ctf/raw/master/05-web2/slides.pdf),
-[online](https://docs.google.com/presentation/d/1yyzmHGmIHnEbWAK33q89TD6w77rNeeXTyEczSemNuT8/edit?usp=sharing).
+[online](https://docs.google.com/presentation/d/1yyzmHGmIHnEbWAK33q89TD6w77rNeeXTyEczSemNuT8/edit?usp=sharing),
+[screencast](https://www.youtube.com/watch?v=BTk9w6G1KVg).
+
+[Часть 3](https://github.com/xairy/mipt-ctf/tree/master/06-web3).
 
 
 ## Задачи
