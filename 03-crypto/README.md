@@ -80,6 +80,10 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 Смотреть [здесь](https://github.com/vpavlenko/ctf-crypto-tasks).
 
+## Разбор задач.
+
+[Тут](https://github.com/xairy/mipt-ctf/wiki/Writeup:-crypto).
+
 
 ## Материалы
 
