@@ -8,6 +8,7 @@ Web3
 [Часть 2](https://github.com/xairy/mipt-ctf/tree/master/05-web2).
 
 Часть 3:
+[pdf](https://github.com/xairy/mipt-ctf/raw/master/06-web3/slides.pdf),
 [online](https://docs.google.com/presentation/d/1mh5VSc6VC_kIQgN7QKojpVsWbJJrUHyxPg_OYrr9QVg/edit?usp=sharing).
 
 
