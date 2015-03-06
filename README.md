@@ -33,5 +33,5 @@ CTF на Физтехе
 (https://github.com/xairy/mipt-ctf/tree/master/05-web2)
 
 **6 марта**
-[Веб, часть 3. Инъекции. Command Injection, CSRF, XPATH Injection, MITM, DDOS.]
+[Веб, часть 3. Command Injection, CSRF, XPATH Injection, MITM, DDOS.]
 (https://github.com/xairy/mipt-ctf/tree/master/06-web3)
