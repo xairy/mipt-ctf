@@ -5,7 +5,9 @@ Crypto
 
 [Часть 1](https://github.com/xairy/mipt-ctf/tree/master/03-crypto).
 
-Часть 2: [онлайн](https://docs.google.com/presentation/d/1_wH9fFyCnPiZYMvVxsbkYfV4_jmHBCRgE8CT3rVTBGw/edit?usp=sharing).
+Часть 2:
+[онлайн](https://docs.google.com/presentation/d/1_wH9fFyCnPiZYMvVxsbkYfV4_jmHBCRgE8CT3rVTBGw/edit?usp=sharing),
+[скринкаст](https://www.youtube.com/watch?v=g-IfMANVBdg).
 
 
 ## Асимметричное шифрование
