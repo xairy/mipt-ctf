@@ -19,7 +19,7 @@ CTF на Физтехе
 (https://github.com/xairy/mipt-ctf/tree/master/02-python)
 
 **25 ноября.**
-[Кодировки (ASCII, Unicode, base64). Шифры Цезаря, простой подстановки и Виженера. Частотный анализ. Индекс совпадений.]
+[Криптография, часть 1. Кодировки (ASCII, Unicode, base64). Шифры Цезаря, простой подстановки и Виженера. Частотный анализ. Индекс совпадений.]
 (https://github.com/xairy/mipt-ctf/tree/master/03-crypto)
 
 **2 декабря.**
@@ -32,6 +32,14 @@ CTF на Физтехе
 [Веб, часть 2. Инъекции. SQLi, XSS, LFI, RFI.]
 (https://github.com/xairy/mipt-ctf/tree/master/05-web2)
 
-**6 марта**
+**5 марта**
 [Веб, часть 3. Command Injection, CSRF, XPATH Injection, MITM, DDOS.]
 (https://github.com/xairy/mipt-ctf/tree/master/06-web3)
+
+**12 марта**
+[Криптография, часть 2. Асимметричное шифрование, протокол Диффи-Хеллмана, RSA, электронная цифровая подпись, сертификат открытого ключа. Криптографические хеш-функции, Length Extension Attack.]
+(https://github.com/xairy/mipt-ctf/tree/master/07-crypto2)
+
+**17 марта**
+[Реверс, часть 1. Ассемблер. Синтаксисы Intel и AT&T.]
+(https://github.com/xairy/mipt-ctf/tree/master/08-reverse)
