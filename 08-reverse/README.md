@@ -18,6 +18,10 @@ https://en.wikibooks.org/wiki/X86_Assembly/Floating_Point
 В [первом](http://kpm8.mipt.ru:8205/cgi-bin/new-client?contest_id=400204) задачи по AT&T синтаксису, [во втором](http://kpm8.mipt.ru:8205/cgi-bin/new-client?contest_id=400205) - по Intel синтаксису.
 Чтобы получить к ним доступ, нужно зарегистрироваться [здесь](http://kpm8.mipt.ru:8205/cgi-bin/new-register?action=207&contest_id=400102&locale_id=1).
 
+## Разбор задач
+
+[Тут.](https://github.com/xairy/mipt-ctf/wiki/Writeup:-reverse)
+
 ## Дополнительные материалы
 
 http://acm.mipt.ru/twiki/bin/view/Asm/WebHome
