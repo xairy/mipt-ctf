@@ -9,6 +9,8 @@ http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm
 
 http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html
 
+https://en.wikibooks.org/wiki/X86_Assembly/Floating_Point
+
 
 ## Задачи
 
