@@ -3,7 +3,7 @@ Reverse
 
 ## Материалы
 
-TODO
+http://cs.lmu.edu/~ray/notes/nasmtutorial/
 
 
 ## Задачи
