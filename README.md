@@ -45,6 +45,14 @@ CTF на Физтехе
 [Криптография, часть 2. Асимметричное шифрование, протокол Диффи-Хеллмана, RSA, электронная цифровая подпись, сертификат открытого ключа. Криптографические хеш-функции, Length Extension Attack.]
 (https://github.com/xairy/mipt-ctf/tree/master/07-crypto2)
 
-**17 марта**
+**19 марта**
 [Реверс, часть 1. Ассемблер. Синтаксисы Intel и AT&T.]
 (https://github.com/xairy/mipt-ctf/tree/master/08-reverse)
+
+**26 марта**
+[Реверс, часть 2. Ассемблер. NASM.]
+(https://github.com/xairy/mipt-ctf/tree/master/09-reverse)
+
+**2 апреля**
+[Реверс, часть 3. Binary patching. ]
+(https://github.com/xairy/mipt-ctf/tree/master/10-reverse)
