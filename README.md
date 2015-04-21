@@ -51,8 +51,8 @@ CTF на Физтехе
 
 **26 марта**
 [Реверс, часть 2. Ассемблер. NASM.]
-(https://github.com/xairy/mipt-ctf/tree/master/09-reverse)
+(https://github.com/xairy/mipt-ctf/tree/master/09-reverse2)
 
 **2 апреля**
 [Реверс, часть 3. Binary patching. ]
-(https://github.com/xairy/mipt-ctf/tree/master/10-reverse)
+(https://github.com/xairy/mipt-ctf/tree/master/10-reverse3)
