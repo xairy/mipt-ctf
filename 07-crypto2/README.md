@@ -6,6 +6,7 @@ Crypto
 [Часть 1](https://github.com/xairy/mipt-ctf/tree/master/03-crypto).
 
 Часть 2:
+[pdf](https://github.com/xairy/mipt-ctf/raw/master/07-crypto2/slides.pdf),
 [онлайн](https://docs.google.com/presentation/d/1_wH9fFyCnPiZYMvVxsbkYfV4_jmHBCRgE8CT3rVTBGw/edit?usp=sharing),
 [скринкаст](https://www.youtube.com/watch?v=g-IfMANVBdg).
 
