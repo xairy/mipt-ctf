@@ -8,6 +8,9 @@ TODO
 
 ## Материалы
 
+[A brief introduction to x86 calling conventions]
+(https://web.archive.org/web/20131027090404/http://codearcana.com/posts/2013/05/21/a-brief-introduction-to-x86-calling-conventions.html)
+
 [Introduction to return oriented programming (ROP)](https://web.archive.org/web/20141130082019/http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html)
 
 [Introduction to format string exploits](https://web.archive.org/web/20130925222312/http://codearcana.com/posts/2013/05/02/introduction-to-format-string-exploits.html)
