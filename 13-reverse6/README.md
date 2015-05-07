@@ -17,6 +17,8 @@ TODO
 
 [Baby's first NX+ASLR bypass](https://www.trustwave.com/Resources/SpiderLabs-Blog/Baby-s-first-NX-ASLR-bypass/)
 
+http://judge.mipt.ru/arm.pdf
+
 
 ## Инструменты
 
