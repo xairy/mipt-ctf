@@ -21,6 +21,8 @@ gdb -q 03-x86-64 -ex "set disassembly intel"
 
 g++ -fno-stack-protector -g 04-gadgets.cpp -o 04-gadgets
 
+ROPgadget --binary 04-gadgets | grep "pop rdi"
+
 
 
 g++ -fno-stack-protector -g 05-memory-write.cpp -o 05-memory-write
