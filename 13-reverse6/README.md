@@ -3,7 +3,7 @@ Reverse
 
 ## Лекция
 
-TODO
+[Скринкаст](https://www.youtube.com/watch?v=MnHbKbxcf7I).
 
 
 ## Материалы
