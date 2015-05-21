@@ -17,10 +17,12 @@ http://habrahabr.ru/post/226431/
 
 ## Инструменты
 
-http://routerpwn.com/
-
 http://www.aircrack-ng.org/
 
 https://github.com/derv82/wifite
 
 https://code.google.com/p/reaver-wps/
+
+http://routerpwn.com/
+
+https://github.com/jduck/asus-cmd
