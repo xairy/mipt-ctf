@@ -13,7 +13,11 @@ TODO
 
 ## Материалы
 
-TODO
+http://habrahabr.ru/post/224955/
+
+http://habrahabr.ru/post/225483/
+
+http://habrahabr.ru/post/226431/
 
 
 ## Инструменты
