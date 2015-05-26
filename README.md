@@ -56,3 +56,19 @@ CTF на Физтехе
 **2 апреля**
 [Реверс, часть 3. Binary patching. ]
 (https://github.com/xairy/mipt-ctf/tree/master/10-reverse3)
+
+**16 апреля**
+[Реверс, часть 4. Инструменты для реверса. gdb, strace. ]
+(https://github.com/xairy/mipt-ctf/tree/master/11-reverse4)
+
+**23 апреля**
+[Реверс, часть 5. Buffer overflow и format string exploit'ы. ]
+(https://github.com/xairy/mipt-ctf/tree/master/12-reverse5)
+
+**7 мая**
+[Реверс, часть 5. Return-Oriented-Programming. Гаджеты, ROPgadget. zio. ]
+(https://github.com/xairy/mipt-ctf/tree/master/13-reverse6)
+
+**21 мая**
+[Advanced. Эксплуатация уязвимостей беспроводных сетей. airmon-ng, airodump-ng, aircrack-ng. wifite. reaver. ]
+(https://github.com/xairy/mipt-ctf/tree/master/14-advanced)
