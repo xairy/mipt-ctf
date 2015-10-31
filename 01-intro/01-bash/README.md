@@ -7,9 +7,11 @@ bash
 
 ## Лекция
 
-TODO
+[Презентация](https://github.com/xairy/mipt-ctf/blob/master/01-intro/01-bash/slides.pdf)
 
-## Задачи
+TODO: скринкаст
+
+## Практика
 
 ### Bandit wargame
 
