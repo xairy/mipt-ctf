@@ -12,7 +12,7 @@ CTF на Физтехе
 
 ## Программа
 
-*28 октября.* [Компьютерная безопасность. Что такое CTF. Attack-defence, jeopardy (task-based). УК РФ. Командная оболочка bash. Полезные команды и утилиты.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/01-bash)
+**28 октября.** [Компьютерная безопасность. Что такое CTF. Attack-defence, jeopardy (task-based). УК РФ. Командная оболочка bash. Полезные команды и утилиты.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/01-bash)
 
 ## План на 2015-2016
 
@@ -25,7 +25,7 @@ CTF на Физтехе
 * Crypto
     * Кодировки (ASCII, ANSI Code Pages, Unicode, UTF-8/16/32). base64. Симметричные шифры. Шифры Цезаря, простой замены, Вижинера. Частотный анализ, индекс совпадений. Одноразовый блокнот. AES, 3DES, Blowfish.
     * Ассиметричные шифры. Протокол Диффи-Хеллмана, RSA. Электронная цифровая подпись, сертификат открытого ключа. SSL, TLS. Как работает HTTPS.
-    * Криптографические хеш-функции (MD5, SHA*, ГОСТ*). Реализация MD5. Коллизии. Length extension attack. Storing passwords, salt. Cracking passwords. John the Ripper, hashcat. Словари. Радужные таблицы.
+    * Криптографические хеш-функции (MD5, SHA\*, ГОСТ\*). Реализация MD5. Коллизии. Length extension attack. Storing passwords, salt. Cracking passwords. John the Ripper, hashcat. Словари. Радужные таблицы.
     * Стеганография. TODO.
 * Net
     * Введение в Веб. ip, port, DNS, netcat (-l), ping (of death), nmap. HTTP, HTTPS, HTTP headers, GET/POST/…, cookies. curl, python requests. Browser dev tools, plugins.
