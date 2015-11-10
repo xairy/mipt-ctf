@@ -14,6 +14,8 @@ CTF на Физтехе
 
 **28 октября.** [Компьютерная безопасность. Что такое CTF. Attack-defence, jeopardy (task-based). УК РФ. Командная оболочка bash. Полезные команды и утилиты.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/01-bash)
 
+**11 ноября.** [Язык программирования Python. Основы синсаксиса. Некоторые полезные модули.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/01-bash)
+
 ## План на 2015-2016
 
 Предварительный план того, что будет в этом году.
