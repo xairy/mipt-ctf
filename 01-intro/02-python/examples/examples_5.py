@@ -1,12 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Регулярные выражения.
+
 import re
 
 line = 'Cats are smarter than dogs'
 
-
-# Searching one.
+# Поиск первого вхождения.
 
 search = re.search('[^ ]+', line)
 
@@ -17,8 +18,7 @@ else:
 
 raw_input()
 
-
-# Searching many.
+# Поиск всех вхождений.
 
 findall = re.findall('[^ ]+', line)
 for match in findall:
@@ -26,8 +26,7 @@ for match in findall:
 
 raw_input()
 
-
-# Matching.
+# Проверка на совпадение.
 
 match = re.match('(.+) are [^ ]+ than (.+)', line)
 

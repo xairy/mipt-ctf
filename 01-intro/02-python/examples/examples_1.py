@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Ввод-вывод. Числа, строки, bool. Конструкции if, for, while.
+
 # Ввод-вывод cтрок.
 first_word = raw_input()
 second_word = raw_input()
@@ -30,6 +32,14 @@ print 10 ** 100
 
 raw_input('Далее...\n')
 
+# Тип bool.
+a = True
+b = False
+if a or b:
+    print a and b
+
+raw_input('Далее...\n')
+
 # Коды символов.
 a = ord('x')
 print a
@@ -54,44 +64,32 @@ else:
 
 raw_input('Далее...\n')
 
-# Списки (изменяемые последовательности).
-houses = ['Ravenclaw', 'Hufflepuff', 'Gryffindor']
-houses.append('Slytherin')
-print len(houses)
-
 # Цикл 'for'. Отступы вновь важны!
 for house in houses:
     print 'Ten points to', house, '!'
 
 raw_input('Далее...\n')
 
-# Set (неупорядоченные коллекции).
-birth_name = 'Tom Marvolo Riddle'
-birth_name_letters = set(birth_name)
-birth_name_lower_letters = set(birth_name.lower())
-nickname_lower_letters = set('I am Lord Voldemort'.lower())
-print birth_name_lower_letters == nickname_lower_letters
-print len(birth_name_lower_letters)
+# Цикл for для численного индекса.
+s = ''
+for i in range(5, 8):
+    s += str(i)
+print s
 
 raw_input('Далее...\n')
 
-fib_numbers = set([1, 1, 2, 3, 5, 8, 13, 21])
-prime_numbers = set([2, 3, 5, 7, 11, 13, 17, 19])
-union = fib_numbers | prime_numbers
-intersection = fib_numbers & prime_numbers
-difference = fib_numbers - prime_numbers
-symmetric_difference = fib_numbers ^ prime_numbers
+# Цикл while.
+number = 0
+while True:
+    number += 1
+    if number == 42:
+        break
+print number
 
-raw_input('Далее...\n')
-
-# Проверка принадлежности.
-print 3 in prime_numbers
-print 4 in prime_numbers
-print 'Griffindor' in houses
-print 'ratio' in 'transfiguration'
-
-a = True
-b = False
+# Списки.
+houses = ['Ravenclaw', 'Hufflepuff', 'Gryffindor']
+houses.append('Slytherin')
+print len(houses)
 
 raw_input('Далее...\n')
 
@@ -100,3 +98,14 @@ houses.sort() # Сортировка на месте.
 sorted_letters = sorted(houses[0]) # Новый список.
 print houses
 print sorted_letters
+
+raw_input('Далее...\n')
+
+# Кортеж / tuple.
+
+t = (1, 'fish', 2, 'fish')
+
+try:
+  t[0] = 'red'
+except:
+  print 'Failed'

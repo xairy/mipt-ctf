@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Словарь, срезы, set.
+
 # Словарь - соответствие из ключей в значения.
 # Это как список, только индексы могут быть не только числами.
 dictionary = {}
@@ -93,8 +95,27 @@ print(a)
 
 raw_input('Далее...\n')
 
-# Кстати о range: тут так делают цикл for.
-s = ''
-for i in range(5, 8):
-    s += str(i)
-print s
+# Set (неупорядоченные коллекции).
+birth_name = 'Tom Marvolo Riddle'
+birth_name_letters = set(birth_name)
+birth_name_lower_letters = set(birth_name.lower())
+nickname_lower_letters = set('I am Lord Voldemort'.lower())
+print birth_name_lower_letters == nickname_lower_letters
+print len(birth_name_lower_letters)
+
+raw_input('Далее...\n')
+
+fib_numbers = set([1, 1, 2, 3, 5, 8, 13, 21])
+prime_numbers = set([2, 3, 5, 7, 11, 13, 17, 19])
+union = fib_numbers | prime_numbers
+intersection = fib_numbers & prime_numbers
+difference = fib_numbers - prime_numbers
+symmetric_difference = fib_numbers ^ prime_numbers
+
+raw_input('Далее...\n')
+
+# Проверка принадлежности.
+print 3 in prime_numbers
+print 4 in prime_numbers
+print 'Griffindor' in houses
+print 'ratio' in 'transfiguration'

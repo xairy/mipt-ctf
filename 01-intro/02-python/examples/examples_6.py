@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Функции map, zip, filter.
+
 # Map.
 
 lst = [1, 2, 3]
@@ -14,19 +16,6 @@ print ''.join(map(chr, hello))
 
 raw_input()
 
-
-# Кортеж / tuple.
-
-t = (1, 'fish', 2, 'fish')
-
-try:
-  t[0] = 'red'
-except:
-  print 'Failed'
-
-raw_input()
-
-
 # Zip.
 
 lst1 = [1, 2]
@@ -35,14 +24,12 @@ print zip(lst1, lst2)
 
 raw_input()
 
-
 # Filter.
 
 lng = range(100)
 print filter(lambda x: x > 50, lng)
 
 raw_input()
-
 
 # Hidden.
 
