@@ -9,7 +9,7 @@ bash
 
 [Презентация](https://github.com/xairy/mipt-ctf/blob/master/01-intro/01-bash/slides.pdf)
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=in2f5xc9K4Q)
 
 ## Практика
 
@@ -26,7 +26,7 @@ ssh bandit0@bandit.labs.overthewire.org
 
 Имеет смысл прорешать хотя бы до 12 уровня включительно.
 
-### Bash мини-CTF
+### Мини-CTF по bash
 
 Условия задач брать [здесь](https://github.com/xairy/mipt-ctf/raw/master/01-intro/01-bash/tasks.tar.gz):
 ```
@@ -57,7 +57,9 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Разбор задач
 
-TODO
+[Bandit wargame](http://infamoussyn.com/2013/11/08/overthewire-bandit-level-0-25-writeup-completed/).
+
+[Мини-CTF по bash](https://github.com/xairy/mipt-ctf/blob/master/01-intro/01-bash/WRITEUP.md).
 
 ## Материалы
 
