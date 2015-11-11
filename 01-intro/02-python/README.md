@@ -38,6 +38,10 @@ TODO: регистрация
 
 Задача взята из [picoCTF 2013](https://2013.picoctf.com).
 
+### Archive
+
+Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/tasks/brute.zip). Пароль словарный. Флагом является пароль.
+
 ### QR Code
 
 Условие задачи [здесь](https://github.com/xairy/mipt-ctf/tree/master/01-intro/02-python/tasks/qrcode).
@@ -46,7 +50,7 @@ TODO: регистрация
 
 Отправлять флаги на сервер таким образом:
 ```
-$ nc andreyknvl.com 9997
+$ nc andreyknvl.com 9998
 username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 ```
 где username - имя для таблицы результатов, а taskname - название задачи.
@@ -66,7 +70,6 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ### CTF-like
 
-1. Распаковать [архив](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/tasks/brute.zip). Пароль словарный.
 
 2. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
 

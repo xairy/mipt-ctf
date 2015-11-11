@@ -91,7 +91,7 @@ raw_input('Далее...\n')
 # Правильный способ.
 a = [[None] * 3 for i in range(2)]
 a[0][0] = 'oops'
-print(a)
+print a
 
 raw_input('Далее...\n')
 
