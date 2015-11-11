@@ -24,9 +24,7 @@ TODO: скринкаст
 
 ### Контест
 
-TODO: регистрация
-
-[Контест](http://93.175.29.91:8202/cgi-bin/new-register?contest_id=300204).
+[Контест](http://kpm8.mipt.ru:8202/cgi-bin/new-register?contest_id=300204)
 
 ### Simple
 
@@ -70,8 +68,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ### CTF-like
 
-
-2. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
+1. Расшифровать [текст](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/tasks/encrypted.txt). Для зашифровки использовался шифр простой замены.
 
 
 ## Разбор задач
@@ -86,4 +83,3 @@ TODO
 [The Python Standard Library](https://docs.python.org/2/library/index.html)
 
 [90% of Python in 90 Minutes](http://www.slideshare.net/MattHarrison4/learn-90)
-
