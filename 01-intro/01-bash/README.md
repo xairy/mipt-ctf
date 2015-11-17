@@ -17,7 +17,8 @@ bash
 
 [Bandit](http://overthewire.org/wargames/bandit/) - одна из игр от [overthewire.org](http://overthewire.org/).
 
-Для перехода на следующий уровень нужно узнать пароль от юзера следующего уровня (например bandit1 для уровня 1).
+Для перехода на следующий уровень нужно узнать пароль от пользователя следующего уровня
+(для уровня N имя пользователя будет banditN).
 Игра начинается с [уровня 0](http://overthewire.org/wargames/bandit/bandit1.html):
 ```
 ssh bandit0@bandit.labs.overthewire.org
@@ -57,9 +58,9 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Разбор задач
 
-[Bandit wargame](http://infamoussyn.com/2013/11/08/overthewire-bandit-level-0-25-writeup-completed/).
+[Bandit wargame](http://infamoussyn.com/2013/11/08/overthewire-bandit-level-0-25-writeup-completed/)
 
-[Мини-CTF по bash](https://github.com/xairy/mipt-ctf/blob/master/01-intro/01-bash/WRITEUP.md).
+[Мини-CTF по bash](https://github.com/xairy/mipt-ctf/blob/master/01-intro/01-bash/WRITEUP.md)
 
 ## Материалы
 
