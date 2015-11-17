@@ -57,9 +57,41 @@ $ ./solve.py
 ub3rs3cr3t
 ```
 
+
 ## Archive
 
-TODO
+В этой задачке нужно было подобрать пароль к zip архиву, предполагая, что он словарный.
+В Питоне есть модуль `zipfile`, который умеет работать с zip-архивами.
+Решение:
+
+``` python
+#!/usr/bin/python
+
+import zipfile
+
+zipfilename = 'brute.zip'
+dictionary = '/usr/share/dict/american-english'
+
+zip_file = zipfile.ZipFile(zipfilename)
+
+with open(dictionary) as f:
+  for line in f.readlines():
+    password = line.strip('\n')
+    try:
+      zip_file.extractall(pwd=password)
+      print 'Password found: %s' % password
+      break
+    except:
+      pass
+```
+
+``` bash
+$ ./brute.py
+Password found: underworld
+```
+
+В данном случае нам хватило словаря английских слов.
+
 
 ## QR Code
 
