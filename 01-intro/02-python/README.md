@@ -9,7 +9,7 @@ Python
 
 [Презентация](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/slides.pdf)
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=46dkN9Ux-T8)
 
 Примеры:
 [1](https://github.com/xairy/mipt-ctf/blob/master/01-intro/02-python/examples/examples_1.py), 
@@ -24,7 +24,7 @@ TODO: скринкаст
 
 ### Контест
 
-[Контест](http://kpm8.mipt.ru:8202/cgi-bin/new-register?contest_id=300204)
+[Контест](http://kpm8.mipt.ru:8202/cgi-bin/new-register?contest_id=300204) с простыми задачками по Питону не на тему CTF.
 
 ### Simple
 
