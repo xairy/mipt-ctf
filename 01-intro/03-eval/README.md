@@ -3,6 +3,8 @@ Python
 
 ## Лекция
 
+[Презентация](https://github.com/xairy/mipt-ctf/blob/master/01-intro/03-eval/slides.pdf),
+
 TODO: скринкаст
 
 Примеры:
