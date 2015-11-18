@@ -66,9 +66,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Дополнительные задачи
 
-1. Задачки категории exploit с [Moscow CTF School 2014](http://ctf.cs.msu.ru:9911/index).
-
-2. [Задачка](https://github.com/xairy/mipt-ctf/blob/master/01-intro/03-eval/tasks/exec.py) с [CSAW CTF 2014](https://ctf.isis.poly.edu/).
+1. [Задачка](https://github.com/xairy/mipt-ctf/blob/master/01-intro/03-eval/tasks/exec.py) с [CSAW CTF 2014](https://ctf.isis.poly.edu/).
 
 
 ## Разбор задач
@@ -78,7 +76,7 @@ TODO
 
 ## Материалы
 
-[Python Build-In Functions: eval](https://docs.python.org/2/library/functions.html#eval)
+[Python Built-In Functions: eval](https://docs.python.org/2/library/functions.html#eval)
 
 [Wikipedia: Eval in Python](https://en.wikipedia.org/wiki/Eval#Python)
 
