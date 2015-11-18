@@ -16,6 +16,8 @@ CTF на Физтехе
 
 **11 ноября.** [Язык программирования Python. Основы синсаксиса. Некоторые полезные модули.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/02-python)
 
+**18 ноября.** [Менеджер пакетов Pip. Функция eval. Как выбраться из sandbox'а в Python с помощью эксплуатации функции eval.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/03-eval)
+
 ## План на 2015-2016
 
 Предварительный план того, что будет в этом году.
