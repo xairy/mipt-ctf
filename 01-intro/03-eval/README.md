@@ -49,8 +49,6 @@ nc python.picoctf.com 6365
 
 Задачи взяты из [picoCTF 2013](https://2013.picoctf.com).
 
-TODO
-
 
 ## Флаги
 
@@ -75,8 +73,15 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 TODO
 
+
 ## Материалы
 
-TODO
+[Python Build-In Functions: eval](https://docs.python.org/2/library/functions.html#eval)
 
-https://en.wikipedia.org/wiki/Eval#Python
+[Wikipedia: Eval in Python](https://en.wikipedia.org/wiki/Eval#Python)
+
+[picoCTF: eval: stage 1](https://2013.picoctf.com/problems/pyeval/stage1.html)
+
+[picoCTF: eval: stage 2](https://2013.picoctf.com/problems/pyeval/stage2.html)
+
+[picoCTF: eval: stage 3](https://2013.picoctf.com/problems/pyeval/stage3.html)
