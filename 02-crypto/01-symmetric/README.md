@@ -80,8 +80,6 @@ Wkh_Txlfn_Eurzq_Ira_Mxpsv_Ryhu_Wkh_Odcb_Grj
 
 ## Флаги
 
-TODO
-
 Отправлять флаги на сервер таким образом:
 ```
 $ nc andreyknvl.com 9996
