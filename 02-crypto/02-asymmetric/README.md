@@ -3,12 +3,7 @@ Crypto
 
 ## Лекция
 
-[Часть 1](https://github.com/xairy/mipt-ctf/tree/master/03-crypto).
-
-Часть 2:
-[pdf](https://github.com/xairy/mipt-ctf/raw/master/07-crypto2/slides.pdf),
-[онлайн](https://docs.google.com/presentation/d/1_wH9fFyCnPiZYMvVxsbkYfV4_jmHBCRgE8CT3rVTBGw/edit?usp=sharing),
-[скринкаст](https://www.youtube.com/watch?v=g-IfMANVBdg).
+[Презентация](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/02-asymmetric/slides.pdf)
 
 
 ## Асимметричное шифрование
@@ -29,7 +24,7 @@ Note that the flag is not a number but a number decoded as ASCII text.
 {"c": 2151755227352155628689133334816, "e": 7, "n": 4698616511411820332781170272631, "hint_for_last_step": "hex"}
 ```
 
-### fermat \*
+### fermat
 
 Моя веселая ФЕРМА.
 
@@ -43,64 +38,37 @@ Note that the flag is not a number but a number decoded as ASCII text.
 }
 ```
 
+### prime
+
+```
+Алиса и Боб сидят в чате.
+
+Алиса: Боб, давай я тебе скажу кое-что секретное?
+Боб: Алиса, окей. Только все остальные же узнают, если ты прямо здесь это напишешь.
+Алиса: Давай использовать Диффи-Хеллмана для генерации секретного ключа. Я зашифрую на нём сообщение алгоритмом Rijndael-256 в режиме CBC. Расшифруешь вот тут: http://www.tools4noobs.com/online_tools/decrypt/
+Боб: Окей.
+Алиса: g = 5, g ** a = 3552713678800500929355621337890625.
+Боб: g ** b = 100974195868289511092701256356196637398170423693954944610595703125.
+Алиса: Зашифровала: 0M2lm0nZFN4kWuagdb6Azsk1fPs9O1P+AA2N6BMdRnKXMVoOlCcfvhlz2jIdbKzZZOuDc9Q+KYtnb5FjrKlj5A==
+Боб: А нам точно не нужен простой модуль p?
+```
+
+### short
+
+```
+Боб: Боюсь, предыдущее сообщение легко расшифровали. Давай заново, и теперь с простым модулем. Смотри не накосячь!
+Алиса: Постараюсь. g = 5, p = 19208302915743920857294037403209473409509, pow(g, a, p) = 10986351755751103712777758371696540996168
+Боб: pow(g, b, p) = 4737807098550297950358929203191827188641
+Алиса: Gq7qV1a7aHWQLa5GA43W8Qi4D23LbRI9xlNeDt/Cdra0nV+HcUyUPs1SGJvoNmGsmV90UC9gLI8fmnOqpj4WXA==
+```
+
 ### broken\*\*
 
-[This RSA service](https://github.com/xairy/mipt-ctf/tree/master/07-crypto2/broken_rsa_source.py) seems to be broken.
+[This RSA service](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/02-asymmetric/broken_rsa_source.py) seems to be broken.
 They encrypt the flag and send it to you each time... but they throw out the private key and you never get to see it.
 Any ideas on how to recover the flag?
 
-Running on vuln.picoctf.com
-
-Hint: Connect from the shell with 'nc vuln.picoctf.com 6666'.
-Read up on RSA and try to figure out why this might be bad...
-Good luck!
-
-
-## Хеширование
-
-Задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks).
-
-### year
-
-Гриша был зарегистрирован на одном сайте, базу паролей которого недавно взломали и выложили. Хэш его пароля: 3517c55f3ffdd3322ccbe12039e33758. В каком году он родился?
-
-### salt
-
-Пароль был зашифрован с использованием соли:
-
-```
->>> salt = 'sI8dM1B9sWx'
->>> password = '...'
->>> print(hashlib.sha256((salt + password).encode('ascii')).hexdigest())
-0e5f530f5b00f812dd2aaa49bf023042cb13ca0582d301bae765d137214e6bcc
-```
-
-Какой это был пароль?
-
-### sign\*
-
-Сообщение подписывается ключом:
-
-```
->>> key = '...'
->>> len(key)
-15
->>> message = 'Hello world!'
->>> print(hashlib.md5((key + message).encode('ascii')).hexdigest())
-d8cecce59ccd894493717de77ff328a0
-```
-
-Подпишите ещё какое-нибудь сообщение тем же ключом. Пришлите его мне, и я выдам вам флаг.
-
-### elf\*\*
-
-Создайте два исполняемых файла ELF для 32-битного Линукса с совпадающим md5-хешем.
-Один из файлов должен выводить при запуске строку `MD5 is insecure`, а второй - `Use SHA-3 whatever that means`.
-Пришлите обе программы мне, и я выдам вам флаг
-
-## Дополнительные задачи
-
-Смотреть [здесь](https://github.com/vpavlenko/ctf-crypto-tasks).
+Connect from the shell with 'nc vuln.picoctf.com 6666'.
 
 ### mistakes\*\*
 
@@ -113,17 +81,12 @@ We think someone may have requested the secret using someone else's user id by a
 
 Отправлять флаги на сервер таким образом:
 ```
-$ nc andreyknvl.com 9992
+$ nc andreyknvl.com 9995
 username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 ```
 где username - имя для таблицы результатов, а taskname - название задачи.
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
-
-
-## Дополнительные задачи
-
-Смотреть [здесь](https://github.com/vpavlenko/ctf-crypto-tasks).
 
 
 ## Разбор задач.
@@ -133,6 +96,14 @@ TODO
 
 ## Материалы
 
-https://github.com/vpavlenko/ctf-crypto-tasks
+[Wikipedia: Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
 
-TODO
+[Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)
+
+[Wikipedia: RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+
+[Wikipedia: HTTPS](https://en.wikipedia.org/wiki/HTTPS)
+
+[How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+
+[SSL/TLS & Perfect Forward Secrecy](http://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy.html)

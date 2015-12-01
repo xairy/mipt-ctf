@@ -10,7 +10,7 @@ CTF на Физтехе
 
 [Группа ВКонтакте](https://vk.com/mipt_ctf).
 
-## Программа
+## Прошедшие занятия
 
 **28 октября.** [Компьютерная безопасность. Что такое CTF. Attack-defence, jeopardy (task-based). УК РФ. Командная оболочка bash. Полезные команды и утилиты.](https://github.com/xairy/mipt-ctf/tree/master/01-intro/01-bash)
 
@@ -20,12 +20,13 @@ CTF на Физтехе
 
 **25 ноября.** [Кодировки. ASCII, ANSI Code Pages, Unicode, UTF-8/16/32. Base64. Классические шифры. Шифр Цезаря. Шифр простой замены. Частотный анализ. Шифр Вижинера. Индекс совпадений. Одноразовый блокнот. Современные симметричные шифры. DES, 3DES, AES.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/01-symmetric)
 
+**2 декабря.** [Асимметричные шифры. Протокол Диффи-Хеллмана. RSA. Электронная цифровая подпись. Сертификат открытого ключа. Как работает HTTPS.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/02-asymmetric)
+
 ## План на 2015-2016
 
 Предварительный план того, что еще будет в этом году.
 
 * Crypto
-    * Ассиметричные шифры. Протокол Диффи-Хеллмана, RSA. Электронная цифровая подпись, сертификат открытого ключа. SSL, TLS. Как работает HTTPS.
     * Криптографические хеш-функции (MD5, SHA\*, ГОСТ\*). Реализация MD5. Коллизии. Length extension attack. Storing passwords, salt. Cracking passwords. John the Ripper, hashcat. Словари. Радужные таблицы.
     * Стеганография. TODO.
 * Net
