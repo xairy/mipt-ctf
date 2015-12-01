@@ -5,7 +5,7 @@ Python
 
 [Презентация](https://github.com/xairy/mipt-ctf/blob/master/01-intro/03-eval/slides.pdf),
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=qUt1GRY8YD8)
 
 Примеры:
 [0](https://github.com/xairy/mipt-ctf/blob/master/01-intro/03-eval/examples/eval_examples_0.py),

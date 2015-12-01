@@ -5,7 +5,7 @@ Crypto
 
 [Презентация](https://github.com/xairy/mipt-ctf/blob/master/02-crypto/01-symmetric/slides.pdf)
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=bbbtWLbEUe4)
 
 ## Задачи
 
