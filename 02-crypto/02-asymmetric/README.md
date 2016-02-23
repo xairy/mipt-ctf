@@ -5,6 +5,8 @@ Crypto
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/02-asymmetric/slides.pdf)
 
+[Скринкаст](https://www.youtube.com/watch?v=RMxNdhRxQk4)
+
 
 ## Асимметричное шифрование
 
