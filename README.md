@@ -22,12 +22,13 @@ CTF на Физтехе
 
 **2 декабря.** [Асимметричные шифры. Протокол Диффи-Хеллмана. RSA. Электронная цифровая подпись. Сертификат открытого ключа. Как работает HTTPS.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/02-asymmetric)
 
+**24 февраля.** [Криптографические хеш-функции (MD5, SHA-1, SHA-2, SHA-3). Обзор реализации MD5. Length extension attack. Как хранить пароли пользователей. Как ломать хеши. John the Ripper, hashcat.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/03-hashing)
+
 ## План на 2015-2016
 
 Предварительный план того, что еще будет в этом году.
 
 * Crypto
-    * Криптографические хеш-функции (MD5, SHA\*, ГОСТ\*). Реализация MD5. Коллизии. Length extension attack. Storing passwords, salt. Cracking passwords. John the Ripper, hashcat. Словари. Радужные таблицы.
     * Стеганография. TODO.
 * Net
     * Введение в Веб. ip, port, DNS, netcat (-l), ping (of death), nmap. HTTP, HTTPS, HTTP headers, GET/POST/…, cookies. curl, python requests. Browser dev tools, plugins.
