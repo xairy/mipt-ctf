@@ -3,7 +3,10 @@ Hashing
 
 ## Лекция
 
-TODO
+[Презентация](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/03-hashing/slides.pdf)
+
+TODO: screencast
+
 
 ## Хеширование
 
