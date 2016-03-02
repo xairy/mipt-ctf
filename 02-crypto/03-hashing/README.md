@@ -5,7 +5,7 @@ Hashing
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/03-hashing/slides.pdf)
 
-TODO: screencast
+[Скринкаст](https://www.youtube.com/watch?v=DyrV8-xWHBs)
 
 
 ## Хеширование
