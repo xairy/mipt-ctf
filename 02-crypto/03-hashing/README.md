@@ -1,5 +1,5 @@
-Hashing
-=======
+Хеширование
+===========
 
 ## Лекция
 
@@ -8,7 +8,7 @@ Hashing
 [Скринкаст](https://www.youtube.com/watch?v=DyrV8-xWHBs)
 
 
-## Хеширование
+## Задачи
 
 Некоторые задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks).
 Для решения некоторых задачек вам могут пригодиться [словарь английских слов](http://downloads.skullsecurity.org/passwords/english.txt.bz2) и [словарь rockyou](http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2).

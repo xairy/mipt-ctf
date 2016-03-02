@@ -1,5 +1,5 @@
-Crypto
-======
+Асимметричное шифрование
+========================
 
 ## Лекция
 
@@ -8,7 +8,7 @@ Crypto
 [Скринкаст](https://www.youtube.com/watch?v=RMxNdhRxQk4)
 
 
-## Асимметричное шифрование
+## Задачи
 
 Задачи взяты [отсюда](https://github.com/vpavlenko/ctf-crypto-tasks) и с [picoCTF 2014](https://picoctf.com/).
 
