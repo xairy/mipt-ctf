@@ -24,12 +24,12 @@ CTF на Физтехе
 
 **24 февраля.** [Криптографические хеш-функции (MD5, SHA-1, SHA-2, SHA-3, bcrypt). Обзор реализации MD5. Length extension attack. Как хранить пароли пользователей. Как ломать хеши. John the Ripper, hashcat.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/03-hashing)
 
+**2 марта.** [Стеганография. Основные понятия. Least Significant Bit (LSB). Контейнеры: текст, изображения, аудио, видео. Стегоанализ.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/04-stego)
+
 ## План на 2015-2016
 
 Предварительный план того, что еще будет в этом году.
 
-* Crypto
-    * Стеганография. TODO.
 * Net
     * Введение в Веб. ip, port, DNS, netcat (-l), ping (of death), nmap. HTTP, HTTPS, HTTP headers, GET/POST/…, cookies. curl, python requests. Browser dev tools, plugins.
     * Анализ трафика. tcpdump. Wireshark. TODO.
