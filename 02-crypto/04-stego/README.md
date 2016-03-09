@@ -63,9 +63,9 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
 
-## Разбор задач.
+## Разбор задач
 
-TODO
+[Разбор задач](https://github.com/xairy/mipt-ctf/blob/master/02-crypto/04-stego/WRITEUP.md)
 
 
 ## Материалы
