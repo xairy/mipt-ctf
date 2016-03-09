@@ -26,12 +26,13 @@ CTF на Физтехе
 
 **2 марта.** [Стеганография. Основные понятия. Least Significant Bit (LSB). Контейнеры: текст, изображения, аудио, видео. Стегоанализ.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/04-stego)
 
+**9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, nestat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijecking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-net/01-http)
+
 ## План на 2015-2016
 
 Предварительный план того, что еще будет в этом году.
 
 * Net
-    * Введение в Веб. ip, port, DNS, netcat (-l), ping (of death), nmap. HTTP, HTTPS, HTTP headers, GET/POST/…, cookies. curl, python requests. Browser dev tools, plugins.
     * Анализ трафика. tcpdump. Wireshark. TODO.
     * SQL-инъекции. TODO.
     * Остальные типы инъекций (XPATH, Command, LDAP). XSS, CSRF. robots.txt, FPD. LFI, RFI, .htaccess, .htpasswd, .svn, .git. Dirbuster. MITM, DDOS.
