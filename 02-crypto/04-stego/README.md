@@ -5,7 +5,7 @@
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/04-stego/slides.pdf)
 
-TODO: Скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=HyDFElOil-I)
 
 
 ## Задачи
