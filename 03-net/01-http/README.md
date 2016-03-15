@@ -5,7 +5,7 @@ HTTP
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-net/01-http/slides.pdf)
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=rHKRivpG3uI)
 
 ## Wargame
 
