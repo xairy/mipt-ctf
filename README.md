@@ -28,6 +28,8 @@ CTF на Физтехе
 
 **9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, nestat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijecking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-net/01-http)
 
+**16 марта.** [Различные типы веб уязвимостей. OWASP Top 10. Injections: SQL, Command, Log. RFI, LFI. XSS, CSRF. Full path disclosure. .git, .svn. .hg. .htaccess, .htpasswd. Malicious file upload. robots.txt, sitemap.xml. Bug bounty.](https://github.com/xairy/mipt-ctf/tree/master/03-net/02-vulns)
+
 ## План на 2015-2016
 
 Предварительный план того, что еще будет в этом году.
@@ -35,7 +37,6 @@ CTF на Физтехе
 * Net
     * Анализ трафика. tcpdump. Wireshark. TODO.
     * SQL-инъекции. TODO.
-    * Остальные типы инъекций (XPATH, Command, LDAP). XSS, CSRF. robots.txt, FPD. LFI, RFI, .htaccess, .htpasswd, .svn, .git. Dirbuster. MITM, DDOS.
 * Binary
     * Ассемблер. Intel и AT&T синтаксисы. Регистры x86, x64. Основные команды. Flags register. Calling conventions. Inline gcc asm. NASM. Контест по NASM’у.
     * Дисассемблирование. Во что компилируется Hello world. Как работают кряки. Binary patching tools (bsdiff, bspatch, …). Утиные истории.
