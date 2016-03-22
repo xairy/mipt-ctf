@@ -7,12 +7,14 @@ HTTP
 
 [Скринкаст](https://www.youtube.com/watch?v=rHKRivpG3uI)
 
-## Wargame
+
+## Задачи
 
 [Wargame по вебу](http://overthewire.org/wargames/natas/).
 Начнем решать на занятии.
 
-## Задачи
+
+## Дополнительные задачи
 
 Еще задачки, если вдруг wargame наскучит или покажется слишком сложным.
 
@@ -63,12 +65,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
 
 
-## Разбор
-
-TODO
-
-
-## Дополнительные задачи
+## Дополнительные задачи 2
 
 http://canyouhack.it/
 
