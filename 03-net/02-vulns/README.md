@@ -5,25 +5,18 @@
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-net/02-vulns/slides.pdf)
 
-TODO
+[Скринкаст](https://www.youtube.com/watch?v=INtQ2vmhoQI)
 
 ## Задачи
 
-### wargame
-
 Продолжаем [wargame по вебу](http://overthewire.org/wargames/natas/).
+
+
+## Дополнительные задачи
 
 ### xss
 
 [XXS game by Google](https://xss-game.appspot.com/).
-
-
-## Разбор
-
-TODO
-
-
-## Дополнительные задачи
 
 ### xss1
 
