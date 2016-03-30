@@ -5,7 +5,7 @@ SQL инъекции
 
 [Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-net/03-sqli/slides.pdf)
 
-TODO: скринкаст
+[Скринкаст](https://www.youtube.com/watch?v=vwHyycHIYrY)
 
 
 ## Задачи
