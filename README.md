@@ -2,7 +2,7 @@ CTF на Физтехе
 ==============
 
 Курс по подготовке к соревнованиям по компьютерной безопасности формата CTF.
-Занятия проходят по средам в 20:00 в 324б ЛК.
+Занятия проходят по средам в 20:00 в 202 ЛК.
 
 Каждое занятие состоит из небольшой лекции и практики в виде решения задачек на определенную тему.
 Предварительная подготовка не требуется.
@@ -30,14 +30,12 @@ CTF на Физтехе
 
 **16 марта.** [Различные типы веб уязвимостей. OWASP Top 10. Injections: SQL, Command, Log. RFI, LFI. XSS, CSRF. Full path disclosure. .git, .svn. .hg. .htaccess, .htpasswd. Malicious file upload. robots.txt, sitemap.xml. Bug bounty.](https://github.com/xairy/mipt-ctf/tree/master/03-web/02-vulns)
 
-**23 марта.** [SQL инъекции. Error-based. Blind (content-based, time-based). Union-based. Stacked queries. File upload. Поиск. Защита. Web Application Firewall. Cheat Sheets. sqlmap.](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli)
+**23 марта.** [SQL инъекции. Error-based. Blind (content-based, time-based). Union-based. Stacked queries. Поиск. Защита. Web Application Firewall. Cheat Sheets. sqlmap.](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli)
 
 ## План на 2015-2016
 
-Предварительный план того, что еще будет в этом году.
+Предварительный план того, что возможно будет в этом году.
 
-* Net
-    * Анализ трафика. tcpdump. Wireshark. TODO.
 * Binary
     * Ассемблер. Intel и AT&T синтаксисы. Регистры x86, x64. Основные команды. Flags register. Calling conventions. Inline gcc asm. NASM. Контест по NASM’у.
     * Дисассемблирование. Во что компилируется Hello world. Как работают кряки. Binary patching tools (bsdiff, bspatch, …). Утиные истории.
