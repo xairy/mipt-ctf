@@ -38,11 +38,11 @@ http://web2014.picoctf.com/injection4/
 
 [Hint 2.] (http://www.w3schools.com/sql/sql_like.asp)
 
-### sql5 \*
+### sql5
 
 https://2013.picoctf.com/problems/php4/
 
-### sql6\*
+### sql6
 
 https://wildwildweb.fluxfingers.net:1424/
 
@@ -60,6 +60,11 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 где username - имя для таблицы результатов, а taskname - название задачи.
 
 Доступна [таблица результатов](https://andreyknvl.com/mipt-ctf).
+
+
+## Разбор задач
+
+[Разбор задач](https://github.com/xairy/mipt-ctf/blob/master/03-net/03-sqli/WRITEUP.md)
 
 
 ## Дополнительные задачи
