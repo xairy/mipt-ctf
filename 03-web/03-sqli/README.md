@@ -3,7 +3,7 @@ SQL инъекции
 
 ## Лекция
 
-[Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-net/03-sqli/slides.pdf)
+[Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli/slides.pdf)
 
 [Скринкаст](https://www.youtube.com/watch?v=vwHyycHIYrY)
 
@@ -64,7 +64,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Разбор задач
 
-[Разбор задач](https://github.com/xairy/mipt-ctf/blob/master/03-net/03-sqli/WRITEUP.md)
+[Разбор задач](https://github.com/xairy/mipt-ctf/blob/master/03-web/03-sqli/WRITEUP.md)
 
 
 ## Дополнительные задачи

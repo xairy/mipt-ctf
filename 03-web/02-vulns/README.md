@@ -3,7 +3,7 @@
 
 ## Лекция
 
-[Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-net/02-vulns/slides.pdf)
+[Презентация](https://github.com/xairy/mipt-ctf/tree/master/03-web/02-vulns/slides.pdf)
 
 [Скринкаст](https://www.youtube.com/watch?v=INtQ2vmhoQI)
 

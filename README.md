@@ -26,11 +26,11 @@ CTF на Физтехе
 
 **2 марта.** [Стеганография. Основные понятия. Least Significant Bit (LSB). Контейнеры: текст, изображения, аудио, видео. Стегоанализ.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/04-stego)
 
-**9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, nestat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijecking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-net/01-http)
+**9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, nestat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijecking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-web/01-http)
 
-**16 марта.** [Различные типы веб уязвимостей. OWASP Top 10. Injections: SQL, Command, Log. RFI, LFI. XSS, CSRF. Full path disclosure. .git, .svn. .hg. .htaccess, .htpasswd. Malicious file upload. robots.txt, sitemap.xml. Bug bounty.](https://github.com/xairy/mipt-ctf/tree/master/03-net/02-vulns)
+**16 марта.** [Различные типы веб уязвимостей. OWASP Top 10. Injections: SQL, Command, Log. RFI, LFI. XSS, CSRF. Full path disclosure. .git, .svn. .hg. .htaccess, .htpasswd. Malicious file upload. robots.txt, sitemap.xml. Bug bounty.](https://github.com/xairy/mipt-ctf/tree/master/03-web/02-vulns)
 
-**23 марта.** [SQL инъекции. Error-based. Blind (content-based, time-based). Union-based. Stacked queries. File upload. Поиск. Защита. Web Application Firewall. Cheat Sheets. sqlmap.](https://github.com/xairy/mipt-ctf/tree/master/03-net/03-sqli)
+**23 марта.** [SQL инъекции. Error-based. Blind (content-based, time-based). Union-based. Stacked queries. File upload. Поиск. Защита. Web Application Firewall. Cheat Sheets. sqlmap.](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli)
 
 ## План на 2015-2016
 

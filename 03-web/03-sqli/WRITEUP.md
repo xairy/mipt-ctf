@@ -1,4 +1,4 @@
-Разбор [задачек по SQL инъекциям](https://github.com/xairy/mipt-ctf/tree/master/03-net/03-sqli).
+Разбор [задачек по SQL инъекциям](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli).
 
 ### sql1
 
