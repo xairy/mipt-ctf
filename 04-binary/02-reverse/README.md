@@ -5,7 +5,7 @@ Python
 
 [Презентация](https://github.com/xairy/mipt-ctf/blob/master/04-binary/02-reverse/slides.pdf)
 
-TODO: [Скринкаст](TODO)
+[Скринкаст](https://www.youtube.com/watch?v=1SjCraZ1l2Q)
 
 
 ## Практика
