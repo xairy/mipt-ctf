@@ -32,17 +32,16 @@ CTF на Физтехе
 
 **23 марта.** [SQL инъекции. Error-based. Blind (content-based, time-based). Union-based. Stacked queries. Поиск. Защита. Web Application Firewall. Cheat Sheets. sqlmap.](https://github.com/xairy/mipt-ctf/tree/master/03-web/03-sqli)
 
-**30 марта, 6, 13, 20 апреля.** [Серия занятий по ассемблеру. TODO.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/01-asm)
+**30 марта, 6, 13, 20 апреля.** [Серия занятий по ассемблеру.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/01-asm)
 
 **27 апреля.** [Reverse engineering. Ассемблеры. Форматы бинарных файлов. ELF. Утилиты: file, strings, readelf, objdump, nm, ldd. Дизассемблеры: objdump, IDA Pro, Hopper, radare2, ODA. Декомпиляторы: Hex-Rays, Hopper. Дебаггеры: strace, ltrace, gdb, qira. Hex редакторы: ghex, hexdump, xxd.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/02-reverse)
+
+**4 мая.** [Бинарные уязвимости. Buffer-overflow: shellcodes, return-to-libc. Format-string-vulnerability: arbitrary read, arbitrary write, overwriting GOT. Дебаг эксплоитов с помощью gdb.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/03-exploits)
 
 ## План на 2015-2016
 
 Предварительный план того, что возможно будет в этом году.
 
 * Binary
-    * Ассемблер. Intel и AT&T синтаксисы. Регистры x86, x64. Основные команды. Flags register. Calling conventions. Inline gcc asm. NASM. Контест по NASM’у.
-    * Дисассемблирование. Во что компилируется Hello world. Как работают кряки. Binary patching tools (bsdiff, bspatch, …). Утиные истории.
-    * C++, Go и Rust бинарники. Обфускация, деобфускация. Пакеры. Anti debugger. Visual RE.
     * Buffer overflow. Shellcode. Non-executable stack, stack canaries, ASLR, RELRO. checksec.sh. String format exploit. Overwriting PLT. Controlling gdb environment, keeping stdin open.
     * ROP. return-to-libc. gadgets, gadget finders. python struct, zio. Bypassing ASLR on x32. Heap buffer overflow.
