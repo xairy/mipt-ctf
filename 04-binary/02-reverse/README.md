@@ -54,7 +54,7 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 
 ## Разбор задач
 
-TODO
+[Разбор задач](https://github.com/xairy/mipt-ctf/blob/master/03-binary/02-reverse/WRITEUP.md)
 
 
 ## Материалы
