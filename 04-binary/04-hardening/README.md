@@ -12,6 +12,12 @@ Reverse
 
 [Return oriented programming. Собираем exploit по кусочкам](http://habrahabr.ru/post/255519/)
 
+http://tk-blog.blogspot.ru/2009/02/relro-not-so-well-known-memory.html
+
+https://xorl.wordpress.com/2010/10/14/linux-glibc-stack-canary-values/
+
+TODO
+
 
 ## Дополнительные материалы
 

@@ -1,4 +1,4 @@
-g++ -m32 -fno-stack-protector -g bypass.cpp -o bypass
+gcc -m32 -fno-stack-protector -g bypass.c -o bypass
 
 ROPgadget --binary /lib/i386-linux-gnu/libc.so.6 --string "/bin/sh"
 0x00160a24 : /bin/sh
