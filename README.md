@@ -2,11 +2,10 @@ CTF на Физтехе
 ==============
 
 Курс по подготовке к соревнованиям по компьютерной безопасности формата CTF.
-Занятия проходят по средам в 20:00 в 202 ЛК.
+Занятия проходили в МФТИ в 2014-2015 и 2015-2016 учебных годах.
 
 Каждое занятие состоит из небольшой лекции и практики в виде решения задачек на определенную тему.
-Предварительная подготовка не требуется.
-Желательно наличие собственного компьютера, но пользоваться компьютерами в аудитории тоже возможно.
+Для некоторых занятий доступны скринкасты, для некоторые есть лишь ссылки на материалы.
 
 [Группа ВКонтакте](https://vk.com/mipt_ctf).
 
@@ -26,7 +25,7 @@ CTF на Физтехе
 
 **2 марта.** [Стеганография. Основные понятия. Least Significant Bit (LSB). Контейнеры: текст, изображения, аудио, видео. Стегоанализ.](https://github.com/xairy/mipt-ctf/tree/master/02-crypto/04-stego)
 
-**9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, nestat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijecking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-web/01-http)
+**9 марта.** [Модель OSI. Стек TCP/IP. Протоколы IP, TCP, UDP. netcat, nmap, netstat, ping. Основы HTTP. Методы, заголовки, cookies, авторизация. Session hijacking attack. HTML. curl, wget, lynx, tcpdump. Python requests. Browser development tools. Полезные плагины для браузеров.](https://github.com/xairy/mipt-ctf/tree/master/03-web/01-http)
 
 **16 марта.** [Различные типы веб уязвимостей. OWASP Top 10. Injections: SQL, Command, Log. RFI, LFI. XSS, CSRF. Full path disclosure. .git, .svn. .hg. .htaccess, .htpasswd. Malicious file upload. robots.txt, sitemap.xml. Bug bounty.](https://github.com/xairy/mipt-ctf/tree/master/03-web/02-vulns)
 
@@ -38,10 +37,4 @@ CTF на Физтехе
 
 **4 мая.** [Бинарные уязвимости. Buffer-overflow: shellcodes, return-to-libc. Format-string-vulnerability: arbitrary read, arbitrary write, overwriting GOT. Дебаг эксплоитов с помощью gdb.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/03-exploits)
 
-## План на 2015-2016
-
-Предварительный план того, что возможно будет в этом году.
-
-* Binary
-    * Buffer overflow. Shellcode. Non-executable stack, stack canaries, ASLR, RELRO. checksec.sh. String format exploit. Overwriting PLT. Controlling gdb environment, keeping stdin open.
-    * ROP. return-to-libc. gadgets, gadget finders. python struct, zio. Bypassing ASLR on x32. Heap buffer overflow.
+**11 мая.** [Различные средства защиты бинарников. ASLR, PIE, stack canary, RELRO, DEP (NX), FORTIFY\_SOURCE. Как и когда можно их обойти. Утилита checksec. Return-Oriented Programming.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/04-hardening)
