@@ -109,3 +109,8 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/)
 
 [SSL/TLS & Perfect Forward Secrecy](http://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy.html)
+
+
+## Всякое
+
+[АНБ скомпрометировало протокол Диффи-Хеллмана?](https://geektimes.ru/post/264040/)
