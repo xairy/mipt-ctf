@@ -38,3 +38,41 @@ CTF на Физтехе
 **4 мая.** [Бинарные уязвимости. Buffer-overflow: shellcodes, return-to-libc. Format-string-vulnerability: arbitrary read, arbitrary write, overwriting GOT. Дебаг эксплоитов с помощью gdb.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/03-exploits)
 
 **11 мая.** [Различные средства защиты бинарников. ASLR, PIE, stack canary, RELRO, DEP (NX), FORTIFY\_SOURCE. Как и когда можно их обойти. Утилита checksec. Return-Oriented Programming.](https://github.com/xairy/mipt-ctf/tree/master/04-binary/04-hardening)
+
+
+## Wargames
+
+http://overthewire.org/wargames/
+
+https://www.root-me.org/en/Challenges/
+
+http://canyouhack.it/
+
+http://pwnable.kr/play.php
+
+https://exploit-exercises.com/
+
+https://pentesterlab.com/exercises/
+
+https://www.vulnhub.com/
+
+https://ctf365.com
+
+http://smashthestack.org/wargames.html
+
+
+## Links
+
+https://github.com/s1gh/ctf-literature
+
+https://github.com/zardus/ctf-tools
+
+https://github.com/apsdehal/awesome-ctf
+
+http://kmb.ufoctf.ru/
+
+https://trailofbits.github.io/ctf/index.html
+
+https://delimitry.blogspot.ru/2014/10/useful-tools-for-ctf.html
+
+https://github.com/pwning/docs
