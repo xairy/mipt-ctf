@@ -119,3 +119,7 @@ TODO: DES, 3DES, AES
 ## Всякое
 
 [Декодер](https://www.artlebedev.ru/tools/decoder/)
+
+[Padding oracle attacks: in depth](https://blog.skullsecurity.org/2013/padding-oracle-attacks-in-depth)
+
+[A padding oracle example](https://blog.skullsecurity.org/2013/a-padding-oracle-example)
