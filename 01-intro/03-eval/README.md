@@ -85,3 +85,12 @@ username taskname 73c0487d1b4c9326bc4ec5ac09bf69eb
 [picoCTF: eval: stage 2](https://2013.picoctf.com/problems/pyeval/stage2.html)
 
 [picoCTF: eval: stage 3](https://2013.picoctf.com/problems/pyeval/stage3.html)
+
+
+## Всякое
+
+[Разгадываем картинку из твиттера компании Intel](https://habrahabr.ru/post/257757/)
+
+[Fuckpyjails Writeup](http://blog.germano.io/2014/fuckpyjails-writeup-9447-ctf/)
+
+[PlaidCTF 2014 '\_\_nightmares\_\_' (Pwnables 375) Writeup](https://blog.mheistermann.de/2014/04/14/plaidctf-2014-nightmares-pwnables-375-writeup/)
