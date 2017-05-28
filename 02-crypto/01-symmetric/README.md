@@ -115,3 +115,7 @@ https://github.com/vpavlenko/ctf-crypto-tasks
 [Wikipedia: One time pad](https://en.wikipedia.org/wiki/One-time_pad)
 
 TODO: DES, 3DES, AES
+
+## Всякое
+
+[Декодер](https://www.artlebedev.ru/tools/decoder/)
