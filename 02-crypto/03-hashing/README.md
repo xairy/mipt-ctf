@@ -123,9 +123,11 @@ TODO
 
 [Length extension attack](https://en.wikipedia.org/wiki/Length_extension_attack)
 
+[Everything you need to know about hash length extension attacks](https://blog.skullsecurity.org/2012/everything-you-need-to-know-about-hash-length-extension-attacks)
+
 [Hash Extender by Ron Bowes](https://github.com/iagox86/hash_extender)
 
-[Everything you need to know about hash length extension attacks](https://blog.skullsecurity.org/2012/everything-you-need-to-know-about-hash-length-extension-attacks)
+[Why do we append the length of the message in SHA-1 pre-processing?](https://crypto.stackexchange.com/questions/8/why-do-we-append-the-length-of-the-message-in-sha-1-pre-processing)
 
 [MD5 Collision Demo](http://www.mathstat.dal.ca/~selinger/md5collision/)
 
