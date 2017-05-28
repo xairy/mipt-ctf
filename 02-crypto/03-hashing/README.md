@@ -123,6 +123,8 @@ TODO
 
 [Length extension attack](https://en.wikipedia.org/wiki/Length_extension_attack)
 
+[Hash Extender by Ron Bowes](https://github.com/iagox86/hash_extender)
+
 [Everything you need to know about hash length extension attacks](https://blog.skullsecurity.org/2012/everything-you-need-to-know-about-hash-length-extension-attacks)
 
 [MD5 Collision Demo](http://www.mathstat.dal.ca/~selinger/md5collision/)
