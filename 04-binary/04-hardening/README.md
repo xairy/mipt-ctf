@@ -16,8 +16,6 @@ http://tk-blog.blogspot.ru/2009/02/relro-not-so-well-known-memory.html
 
 https://xorl.wordpress.com/2010/10/14/linux-glibc-stack-canary-values/
 
-TODO
-
 
 ## Дополнительные материалы
 
@@ -55,3 +53,14 @@ https://www.youtube.com/watch?v=Xf5q6wCyD_A
 https://www.youtube.com/watch?v=td1KEUhlSuk
 
 https://www.youtube.com/watch?v=eteFhzEkcxY
+
+
+## Всякое
+
+[libc-database](https://github.com/niklasb/libc-database)
+
+[CompilerFlags](https://wiki.ubuntu.com/ToolChain/CompilerFlags)
+
+[On the battelfield with the Dragons](http://j00ru.vexillium.org/blog/24_03_15/dragons_ctf.pdf)
+
+[Controlling uninitialized memory with LD_PRELOAD](http://vulnfactory.org/blog/2010/04/08/controlling-uninitialized-memory-with-ld_preload/)
